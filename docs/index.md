@@ -2,13 +2,14 @@
 
 For full documentation visit [TEMPS_documentation.org](https://oekoinstitut.github.io/TEMPS_documentation/).
 
+## Einleitung
 
 Das am Öko-Institut entwickelte Modell TEMPS (Transport Emissions and Policy Scenarios) ermöglicht die Quantifizierung von Endenergiebedarf und Treibhausgasemissionen des Verkehrs in Deutschland. Die Szenarien können sich in ihren politischen und techno-ökonomischen Rahmenbedingungen unterscheiden. Darüber hinaus lassen sich mit TEMPS Neuzulassungsstruktur und Fahrzeugbestand von Straßenfahrzeugen sowie Verlagerungen in der Verkehrsnachfrage bestimmen.
 Im Zentrum des Modells steht die Markthochlaufmodellierung für Straßenfahrzeuge (Pkw, LNF und Lkw) anhand eines umfangreichen Neuzulassungs- und Bestandsmodells. Dieses simuliert die Kaufentscheidung für repräsentative Nutzungsprofile bottom-up mit Hilfe verschiedener technischer, ökonomischer und regulatorischer Bedingungen. Für alle weiteren Verkehrsträger (Schienenverkehr, Schifffahrt, Luftfahrt, Busse, Motorräder, Fahrräder) werden Annahmen über Antriebe und ihre Effizienzentwicklung hinterlegt. 
 Regulatorische Rahmenbedingungen und Entwicklungen des Marktes auf nationaler sowie europäischer Ebene werden in allen Szenarien berücksichtigt. Diese drücken sich beispielsweise durch Steuern, Mautgebühren oder Grenzwerte aus. Ebenso beeinflussen globale Trends die Wirtschaftlichkeit der Fahrzeuge, wie zum Beispiel die Entwicklung von Batterie- und Kraftstoffpreisen. Für die Nutzfahrzeuge spielen spielen insbesondere die CO2-Flottenzielwerte, die Lkw-Maut sowie der Ausbau der Lade- und Tankstelleninfrastruktur für alternative Fahrzeugantriebe eine entscheidende Rolle.
 Im Folgenden wird die Kaufentscheidung durch Nutzungsprofile, das Neuzulassungsmodell und das Bestandsmodell für Straßenfahrzeuge beschrieben. Daraufhin wird die Verkehrsnachfrage inklusive Verlagerungswirkungen und Energie- und Treibhausgasbilanz erläutert.
 
-# Methodischer Ansatz
+## Methodischer Ansatz
 
 TEMPS ist ein Simulationsmodell, welches die Neuzulassungs- und Bestandsstruktur bottom-up berechnet. Anschließend wird der Bestand top-down anhand einer bestehenden Verkehrsnachfrage und den Auslastungsgraden berechnet und die bottom-up berechnete Gesamtflotte mit dem ermittelten Wert kalibriert.  
 TEMPS ist für nationale Verkehre ausgelegt. Internationale Verkehre, welche von- oder nach Deutschland gehen, werden ebenfalls modelliert (Personenflugverkehr, Güterflugverkehr, Güterseeverkehr).
@@ -17,7 +18,7 @@ Die Flotte und die Verkehrsnachfrage werden auf nationaler Ebene ausgegeben. Rä
 
 
 
-# Nutzungsprofile und Fahrzeugkonfigurationen
+## Nutzungsprofile und Fahrzeugkonfigurationen
 
 Die Modellierung der Neuzulassungen basiert auf einem bottom-up Ansatz für die Kaufentscheidung von Fahrzeugen durch verschiedene Nutzungsprofile. Die Gesamtheit der Nutzungsprofile bildet das Fahrverhalten der Bevölkerung im Motorisiertem Individualverkehr (MIV) bzw. der Logistikunternehmen im Güterverkehr repräsentativ ab.
 Jedes Nutzungsprofil wird durch fünf Merkmale charakterisiert:
@@ -35,9 +36,9 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
 
 Für jedes Fahrzeugmodell (definiert über Größenklasse und Antrieb) stehen verschiedene Effizienzen zur Auswahl. Die Effizienzen leiten sich direkt aus den Kostenkurven der Fahrzeugmodelle ab. Eine Kostenkurve gibt die  den Fahrzeugpreis über die Effizienz eines Fahrzeugsmodells. Für jedes Fahrzeug, definiert über Größenklasse, Antrieb und Effizienz, werden teils notwendige teils optionale Kostenbestandteile berücksichtigt (siehe Tabelle 3). Die Kostenbestandteile gliedern sich in Investitionskosten und laufende Kosten. 
 
-# Neuzulassungsmodell
+## Neuzulassungsmodell
 
-## TCO (Total Costs of Ownership)
+### TCO (Total Costs of Ownership)
 Die Bestimmung der Kaufentscheidung eines Nutzungsprofils erfolgt in mehreren Schritten. Anhand einer TCO-Rechnung (Total Cost of Ownership) werden für jedes Nutzungsprofil die Kosten der verfügbaren Fahrzeugmodelle berechnet. Daraus wird anschließend die kostengünstigste Effizienz je Antrieb ermittelt. Hier zeigt sich, dass die privaten Fahrzeugkäufer meist nicht die langfristigen Kosten der Fahrzeughaltung und -nutzung berücksichtigen, es findet also eine gedankliche Abzinsung statt (Mock 2010). Es wird angenommen, dass die privaten Pkw-Käufer für ihre Kaufentscheidung nur die ersten drei Jahre zu Grunde legen und für zukünftige Zahlungen eine Diskontrate von 5 % anwenden. 
 Bei Lkw hingegen spielt die Haltedauer eine entscheidende Rolle für die Wirtschaftlichkeit eines Fahrzeugs. Aufgrund ihrer hohen Fahrleistung liegen die Haltedauern bei Lkw deutlich niedriger als bei Pkw. Diese liegen nach einer standardisierten Online-Befragung von Transportunternehmen im Frühjahr 2021 (Öko-Institut; Hochschule Heilbronn 2022) zwischen 3-9 Jahren. Zusätzlich wird bei allen gewerblichen Haltern die Abschreibung berücksichtigt, welche mindernd auf die Unternehmenssteuern wirkt. Dabei werden ein Unternehmenssteuersatz von 30 % und eine Abschreibungsdauer von 9 Jahren zu Grunde gelegt.
 
