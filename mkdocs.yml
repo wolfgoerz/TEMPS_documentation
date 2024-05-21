@@ -1,5 +1,5 @@
-site_name: MkDocs YouTube Tutorial
-site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_name: TEMPS Dokumentation
+site_url: https://oekoinstitut.github.io/TEMPS_documentation/
 theme:
   name: material
   features:
