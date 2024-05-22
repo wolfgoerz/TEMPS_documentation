@@ -72,7 +72,7 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
 ![img_4.png](img_4.png)
 
 <table>
-  <caption>Tabelle 2: Größenklassen für Pkw und Lkw</caption>
+  <caption align="left">Tabelle 2: Größenklassen für Pkw und Lkw</caption>
   <thead>
     <tr>
       <th>Pkw</th>
@@ -102,7 +102,7 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
 Für jedes Fahrzeugmodell (definiert über Größenklasse und Antrieb) stehen verschiedene Effizienzen zur Auswahl. Die Effizienzen leiten sich direkt aus den Kostenkurven der Fahrzeugmodelle ab. Eine Kostenkurve gibt die  den Fahrzeugpreis über die Effizienz eines Fahrzeugsmodells. Für jedes Fahrzeug, definiert über Größenklasse, Antrieb und Effizienz, werden teils notwendige teils optionale Kostenbestandteile berücksichtigt (siehe Tabelle 3). Die Kostenbestandteile gliedern sich in Investitionskosten und laufende Kosten. 
 
 <table>
-  <caption>Tabelle 3: Kostenbestandteile der TCO</caption>
+  <caption align="left">Tabelle 3: Kostenbestandteile der TCO</caption>
   <thead>
     <tr>
       <th>Investitionskosten</th>
