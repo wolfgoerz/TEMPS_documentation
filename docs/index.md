@@ -1,8 +1,8 @@
 # TEMPS Dokumentation
 
-For full documentation visit [TEMPS_documentation.org](https://oekoinstitut.github.io/TEMPS_documentation/).
+Diese Dokumentation ist noch in Bearbeitung und wird in Kürze fertiggestellt. (Stand 23.05.2024)
 
-## 1 Kurze Einführung in das Modell TEMPS
+## 1 Einleitung
 
 Das am Öko-Institut entwickelte Modell TEMPS (Transport Emissions and Policy Scenarios) ermöglicht die Quantifizierung der Entwicklung von Endenergiebedarf und Treibhausgasemissionen des Verkehrs in Deutschland. Die Szenarien berücksichtigen unterschiedliche politische und techno-ökonomischen Rahmenbedingungen und können die Wirkung einzelner Politikinstrumente ermitteln. Darüber hinaus lassen sich mit TEMPS die Entwicklung der Neuzulassungsstruktur und des Fahrzeugbestandes von Straßenfahrzeugen sowie Verlagerungen der Verkehrsnachfrage bestimmen.
 
@@ -207,9 +207,49 @@ Die Kfz-Steuer berechnet sich aus:
 mit
 **hier Beschreibungen**
 
+#### 4.1.10 Maut
+Für Lkw werden fahrleistungsabhängige Mautkosten berücksichtigt. Die Maut berücksichtigt aktuell die folgenden Kostenkomponenten, mit den derzeit gültigen Mautsätzen:
+* Infrastruktur
+* Luftschadstoffe
+* Lärm
+* CO<sub>2</sub>
 
+Elektrische Lkw sind derzeit von der Maut befreit. Um die Deckung der Wegekosten gemäß der Wegekostenrichtlinie dennoch sicherzustellen, wird die Infrastrukturkomponente regelmäßig angepasst. Es ist möglich die Maut auch auf Pkw auszuweiten. Zudem können weitere Kosten internalisiert werden, wie Unfallkosten, Abnutzung sowie Natur und Landschaft.
 
+#### 4.1.11 Dienstwagensteuer
+Die Bereitstellung eines Dienstwagens zur privaten Nutzung stellt steuerrechtlich einen Geldwerten Vorteil dar. Dieser kann über die genaue Abrechnung aller privaten Fahrten mit der Fahrtenbuchmethode erfolgen oder aber, in Deutschland sehr verbreitet, über einen Pauschalierungsansatz.  Hierzu wird der Geldwerte Vorteil pauschal über den Bruttolistenpreis des Dienstwagens und die einfache Distanz zur Arbeitsstätte des Arbeitnehmenden abgeschätzt. Im Status Quo wird für die Pauschalierung 1% des Bruttolistenpreises plus 0,03% je Kilometer Arbeitsweg für die Berechnung des monatlich zu versteuernden geldwerten Vorteils genutzt. Für die Berechnung wird auf einen durchschnittlichen Arbeitsweg von 18 Kilometern einfacher Strecke, der anhand der MiD 2017 berechnet wurde, zurückgegriffen. Ferner wird ein Grenzsteuersatz von 40% für die Kalkulation der zusätzlichen finanziellen Belastung aus der Besteuerung des Grenzwerten Vorteils angenommen. Für elektrische Dienstwagen und PHEV gelten im Status Quo besondere Regelungen, sodass diese teilweise nur 0,25% bzw. 0,5% anstelle der 1% versteuern müssen. 
 
+Diese zusätzliche finanzielle Belastung durch die Besteuerung des geldwerten Vorteils der Dienstwagennutzung wird im Rahmen der TCO-Rechnung berücksichtigt und hat somit Einfluss auf die Pkw-Wahl.
+
+Zusätzlich wird im Rahmen der TCO-Rechnung ebenfalls berücksichtigt, dass der Arbeitgeber vorsteuerabzugberechtigt ist und daher die Mehrwertsteuer bei Kauf entfällt bzw. zurückgefordert werden kann und daher kein Einfluss auf die TCO hat. 
+
+### 4.2 Logit-Modell für Pkw
+
+Nachdem mit der TCO-Rechnung für jedes Pkw-Nutzungsprofil und jeden Antrieb die jeweils kostengünstigste Effizienz ermittelt wird, wird die Verteilung der Antriebe über ein Logit-Modell bestimmt. Das Logit-Modell ermöglicht es, antriebspezifische Attraktivitätsmerkmale, die über die rein ökonomische Betrachtung hinausgehen, zu berücksichtigen.
+Die Realität zeigt, dass Menschen sich bei der Kaufentscheidung nicht grundsätzlich für das günstigste Fahrzeug entscheiden, sondern stattdessen andere Faktoren wie Komfort, Gewohnheit, Popularität oder Status bei der Kaufentscheidung von großer Bedeutung sind. Das Logit-Modell bildet somit diese antriebsspezifischen Charakteristika ab.
+Die Wahrscheinlichkeit für den Kauf eines Pkw mit dem Antrieb i kann mit dem Logit-Modell mittels der Gleichung
+**hier Formel einfügen**
+
+beschrieben werden. Dabei bezeichnet *X<sub>i</sub>* einen Pkw mit Antrieb *i*. *val(X<sub>i</sub>)* ist eine Wertfunktion, die der TCO des Fahrzeugs *X<sub>i</sub>* entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u. a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil des Käufers ab. 
+Die Logit-Parameter des Modells werden an den Neuzulassungszahlen des letzten historischen Jahres kalibriert. Es wird davon ausgegangen, dass die Attraktivität von alternativen Antrieben sich bis 2035 sukzessive dem Niveau von Benzinern annähert. Dies liegt an den verschärften CO<sub>2</sub>-Flottenzielwerten, die bis zum Jahr 2035 auf null sinken.
+Eine Kalibrierung anhand der EU-Monitoringdaten stellt zudem sicher, dass die Auswahl der Fahrzeugeffizienzen mit den Ist-Daten übereinstimmt und auch in der Prognose zuverlässig ist. 
+
+### 4.3 Neuzulassungsstruktur für Nutzfahrzeuge
+
+Die Kaufentscheidung nach Antrieben bei den Nutzfahrzeugen erfolgt – anders als bei den Pkw – allein anhand ökonomischer Kriterien. Dies beruht auf der Annahme, dass bei Logistikunternehmen insbesondere die Wirtschaftlichkeit der Fahrzeuge im Fokus steht. 
+Die Antriebswahl erfolgt über einen direkten Vergleich der TCO aller Antriebsoptionen und Antriebseffizienzen. Wenn die Gesamtnutzungskosten für verschiedene Kaufoptionen sehr ähnlich sind, erfolgt die Auswahl des Antriebs mithilfe einer stochastischen Normalverteilungsfunktion. Damit soll sichergestellt werden, dass ein geringfügiger wirtschaftlicher Vorteil eines Antriebs keine übermäßige Auswirkung auf die Verteilung der Neuzulassungen hat.
+
+**hier Formel einfügen**
+
+Die Formel ermittelt jeweils die Auswahlwahrscheinlichkeit P für jede Antriebsoption i in Abhängigkeit der jeweiligen TCO y. Der Mittelwert μ der Verteilungskurve entspricht der TCO der insgesamt günstigsten Antriebsoption.
+
+### 4.4 Energieinfrastruktur
+Bei batterieelektrischen Antrieben spielt das Fahrverhalten eine entscheidende Rolle bei der Antriebswahl. Nutzungsprofile, die viele weite Strecken zurücklegen, werden sich - soweit noch keine hinreichende Ladeinfrastruktur besteht - in ihrem Kaufverhalten gegen einen batterieelektrischen Antrieb entscheiden. 
+In TEMPS wird die Einsatzrestriktion batterieelektrischer Antriebe von Pkw in Relation zur Anzahl der Fahrten parametrisiert, welche die Batteriereichweite überschreiten. Es wird angenommen, dass eine Kaufentscheidung für ein batterieelektrisches Fahrzeug auch dann getroffen wird, wenn eine bestimmte Anzahl an Fahrten mit dem Fahrzeug aufgrund der limitierten Ladeinfrastruktur derzeit noch nicht zurückgelegt werden kann. Die absolute Anzahl dieser Fahrten wird für 30 verschiedene Gruppen aus den Wegedatensätzen der MiD (Nobis und Kuhnimhof 2018) abgeleitet. Dies geschieht differenziert nach Haltergruppe, Größenklasse und Jahresfahrleistung. Für jedes Nutzungsprofil wird die Anzahl der Fahrten anschließend über eine Poisson-Verteilung über den berechneten Mittelwert der jeweiligen Gruppe ermittelt. Die resultierende Limitierung der batterieelektrischen Fahrzeuge reduziert sich aufgrund des Ausbaus der öffentlichen Ladeinfrastruktur kontinuierlich, bis im Jahr 2035 keine Restriktion mehr besteht.
+Batterieelektrische Lkw stehen in TEMPS zunächst nur als Kaufoption für Nutzungsprofile zur Verfügung, wenn ihre durchschnittliche Tagesfahrleistung (abgeleitet aus der KiD (Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) 2010)) vollständig über ihre Batteriereichweite abgedeckt ist. Im Zeitverlauf wird jedoch ein Ausbau der Infrastruktur angenommen, sodass die Reichweite durch Ladestopps erhöht werden kann. Insgesamt ergeben sich drei Ausbaustufen. In der ersten Ausbaustufe können Lkw nur einmal täglich im Depot geladen werden. In der zweiten Ausbaustufe kann nach jeder Tour, beispielsweise am Logistikzentrum oder bei Kund*innen, nachgeladen werden. In der dritten Stufe kann jederzeit während der Fahrt an öffentlichen Megawatt-Ladepunkten entlang der Autobahn zwischengeladen werden und die Restriktion durch die Batteriereichweite entfällt. Eine detaillierte Beschreibung der Methodik zur Ladeinfrastruktur ist der Studie StratES (Göckeler et al. 2023) zu entnehmen. 
+Für Brennstoffzellen-Lkw werden modellseitig keine Restriktionen des Fahrzeugeinsatzes berücksichtigt. Es wird davon ausgegangen, dass technische Entwicklungen dazu führen, dass im Jahr 2030 bis zu 1000 km Reichweite erreicht werden. 
+
+### 4.5 Bestandsmodellierung
 
 
 
