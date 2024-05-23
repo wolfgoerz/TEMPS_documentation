@@ -73,6 +73,7 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
 </table>
 
 
+ 
 <table>
   <caption align="left">Tabelle 2: Größenklassen für Pkw und Lkw</caption>
   <thead>
@@ -148,7 +149,7 @@ Bei Lkw hingegen spielt die gesamte Haltedauer eine entscheidende Rolle für die
 #### 4.1.1 Anschaffungspreis 
 Der Anschaffungspreis ergibt sich, wie in 3 beschrieben, direkt aus den Kostenkurven der Fahrzeuge und berücksichtigt aktuelle Batteriepreisprognosen. Er fällt zum Kaufzeitpunkt an und geht daher nicht diskontiert in die TCO ein.
 
-#### 4.1.2 Restwerte(!! ab hier noch nicht aktuell)
+#### 4.1.2 Restwerte
 Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Erlös in die TCO ein. Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet (Dexheimer 2003).  Die Gleichung lautet:
 
 ![1.png](1.png)
@@ -156,6 +157,7 @@ mit
 ![2.png](2.png)
 
 Der Restwert wird anschließend über die Haltedauer diskontiert:
+
 ![3.png](3.png)
 
 #### 4.1.3 Absetzung für Abnutzung (AFA) und Restbuchwert
@@ -166,13 +168,13 @@ Die AFA berechnet sich aus:
 
 ![4.png](4.png)
 mit
-**hier Beschreibungen**
+![5.png](5.png)
 
 Bei einem Wiederverkauf des Fahrzeugs vor dem Zeitpunkt der vollständigen Abschreibung (im Regelfall nach 6 Jahren) muss die Differenz zwischen Verkaufserlös und Restbuchwert versteuert werden. Da bei einer Sonder‐AfA der Restbuchwert schneller sinkt, muss beim Wiederverkauf ein höherer Erlös versteuert werden. Der Restbuchwert berechnet sich aus:
 
-**hier Formel einfügen**
+![6.png](6.png)
 mit
-**hier Beschreibungen**
+![7.png](7.png)
 
 #### 4.1.4 Kaufprämie
 Die Kaufprämie geht direkt als Gutschrift im Anschaffungsjahr in die TCO ein. Es wird davon ausgegangen, dass der Herstelleranteil durch eine Anhebung der Kaufpreise gegenfinanziert wird und damit keine Vergünstigung für den Käufer bewirkt. 
@@ -182,9 +184,9 @@ Beim Malus wird die Kfz-Steuer für Pkw so geändert, dass im ersten Jahr nach d
 Weil zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keinen relevanten Beitrag mehr leisten, kann die absolute Höhe der Zusätzlichen CO2-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
 Der Malus berechnet sich aus:
 
-**hier Formel einfügen**
+![8.png](8.png)
 mit
-**hier Beschreibungen**
+![9.png](9.png)
 
 #### 4.1.6 Kraftstoffkosten
 Die Kraftstoffkosten berechnen sich aus den Kraftstoffpreisen, dem Kraftstoffmix je Antrieb, dem Verbrauch pro km und der Jahresfahrleistung. Private Halter zahlen außerdem noch die Mehrwertsteuer auf den Kraftstoffpreis. 
