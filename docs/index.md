@@ -151,13 +151,12 @@ Der Anschaffungspreis ergibt sich, wie in 3 beschrieben, direkt aus den Kostenku
 #### 4.1.2 Restwerte(!! ab hier noch nicht aktuell)
 Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Erlös in die TCO ein. Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet (Dexheimer 2003).  Die Gleichung lautet:
 
-**hier Formel einfügen**
+![1.png](1.png)
 mit
-**hier Beschreibungen**
+![2.png](2.png)
 
 Der Restwert wird anschließend über die Haltedauer diskontiert:
-**hier Formel einfügen**
-**hier Beschreibungen**
+![3.png](3.png)
 
 #### 4.1.3 Absetzung für Abnutzung (AFA) und Restbuchwert
 Bei gewerblichen Haltern wird die Abschreibung berücksichtigt, welche mindernd auf die Unternehmenssteuern wirkt. Es wird dabei ein Unternehmenssteuersatz von 30 % zu Grunde gelegt, sowie eine Abschreibungsdauer von 6 Jahren für Pkw und leichte Nutzfahrzeuge und 9 Jahren für schwere Nutzfahrzeuge.
@@ -165,7 +164,7 @@ Bei gewerblichen Haltern wird die Abschreibung berücksichtigt, welche mindernd 
 Diese erlaubt es 50 % der Investition zusätzlich zur normalen jährlichen Abschreibung bereits im Jahr der Anschaffung steuerlich abzusetzen. Durch die Sonder‐AfA bietet sich dem Steuerpflichtigen die Möglichkeit, im ersten Jahr höhere Verluste steuerlich geltend zu machen und somit seinen zu versteuernden Gewinn zu reduzieren. Ab dem zweiten Jahr kehrt sich dieser Effekt um, da nunmehr ein geringeres Abschreibungsvolumen zur Verfügung steht. Der monetäre Vorteil einer Sonder‐AfA für den Fahrzeughalter beruht somit auf dem Zins‐ und Liquiditätsvorteil, der sich durch eine vorgezogene Abschreibung ergibt.
 Die AFA berechnet sich aus:
 
-**hier Formel einfügen**
+![4.png](4.png)
 mit
 **hier Beschreibungen**
 
