@@ -143,7 +143,15 @@ Für jedes Fahrzeugmodell (definiert über Größenklasse und Antrieb) stehen ve
 Die Bestimmung der Kaufentscheidung eines Nutzungsprofils erfolgt in mehreren Schritten. Anhand einer TCO-Rechnung (Total Cost of Ownership) werden für jedes Nutzungsprofil die Kosten der verfügbaren Fahrzeugmodelle berechnet. Daraus wird anschließend die kostengünstigste Effizienz je Antrieb ermittelt. Hier zeigt sich, dass die privaten Fahrzeugkäufer meist nicht die langfristigen Kosten der Fahrzeughaltung und -nutzung berücksichtigen, es findet also eine gedankliche Abzinsung statt (Mock 2010). Es wird angenommen, dass die privaten Pkw-Käufer für ihre Kaufentscheidung nur die ersten drei Jahre zu Grunde legen und für zukünftige Zahlungen eine Diskontrate von 5 % anwenden. 
 Bei Lkw hingegen spielt die Haltedauer eine entscheidende Rolle für die Wirtschaftlichkeit eines Fahrzeugs. Aufgrund ihrer hohen Fahrleistung liegen die Haltedauern bei Lkw deutlich niedriger als bei Pkw. Diese liegen nach einer standardisierten Online-Befragung von Transportunternehmen im Frühjahr 2021 (Öko-Institut; Hochschule Heilbronn 2022) zwischen 3-9 Jahren. Zusätzlich wird bei allen gewerblichen Haltern die Abschreibung berücksichtigt, welche mindernd auf die Unternehmenssteuern wirkt. Dabei werden ein Unternehmenssteuersatz von 30 % und eine Abschreibungsdauer von 9 Jahren zu Grunde gelegt.
 
+Im Folgenden werden die Bestandteile der TCO im Detail erläutert.
 
+#### Anschaffungspreis
+Der Anschaffungspreis ergibt sich direkt aus den Kostenkurven der Fahrzeuge. Bei Batterieelektrischen Fahrzeugen wird der Batteriepreis vorab von den Anschaffungskosten herausgerechnet und anschließend entsprechend der Batteriereichweite der Fahrzeuge wieder hinzugefügt. So können auch aktuelle Entwicklungen bei den Batteriepreisen berücksichtigt werden, ohne die Kostenkurven zu verändern. 
+
+#### Restwerte
+
+In der TCO wird auch der Restwert eines Fahrzeugs berücksichtigt. Bei den Pkw werden analog zum Vorgehen in (Hacker et al. 2015) Regressionskurven zu Grunde gelegt, die den Restwert eines Fahrzeugs unter Berücksichtigung von Anschaffungspreis, Fahrleistung und Fahrzeugalter sowie Haltedauer bestimmen. 
+Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet (Dexheimer 2003). Die Gleichung lautet:
 
 
 
