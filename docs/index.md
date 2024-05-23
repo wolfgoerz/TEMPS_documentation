@@ -25,11 +25,11 @@ TEMPS besitzt Schnittstellen zu den Modellen PowerFlex und der Energiemodellieru
 Die Modellierung der Neuzulassungen von Pkw und Lkw basiert auf einem „bottom-up“-Ansatz, indem die Kaufentscheidung von insgesamt rund 2400 Nutzungsprofilen abgebildet wird. Die Gesamtheit der Nutzungsprofile bildet das Fahrverhalten der Bevölkerung im Motorisiertem Individualverkehr (MIV) bzw. der Logistikunternehmen im Güterverkehr repräsentativ ab.
 
 Jedes Nutzungsprofil wird durch fünf Merkmale charakterisiert:
-*	Größenklasse des Fahrzeugs 
-*	Art des Halters (privat, gewerblich, dienstwagennutzend, carsharing)
-*	Regionstyp des Halters (innenstadt, städtisch, ländlich)
-*	Jahresfahrleistung
-*	Haltedauer
+- Größenklasse des Fahrzeugs
+- Art des Halters (privat, gewerblich, dienstwagennutzend, carsharing)
+- Regionstyp des Halters (innenstadt, städtisch, ländlich)
+- Jahresfahrleistung
+- Haltedauer
 
 Die Nutzungsprofile im MIV basieren auf dem „Mobilitätspanel“ (MOP) (Ecke et al. 2021) und der Studie „Mobilität in Deutschland 2017“ (Nobis und Kuhnimhof 2018). Für Lkw und LNF beruhen die Profile auf der Studie „Kraftfahrzeugverkehr in Deutschland 2010“ (Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) 2010) und der Fahrleistungserhebung 2014 (Bäumer et al. 2017; Bundesanstalt für Straßenwesen (BASt) 2015).
 
@@ -213,10 +213,10 @@ mit
 
 #### 4.1.10 Maut
 Für Lkw werden fahrleistungsabhängige Mautkosten berücksichtigt. Die Maut berücksichtigt aktuell die folgenden Kostenkomponenten, mit den derzeit gültigen Mautsätzen:
-* Infrastruktur
-* Luftschadstoffe
-* Lärm
-* CO<sub>2</sub>
+- Infrastruktur
+- Luftschadstoffe
+- Lärm
+- CO<sub>2</sub>
 
 Elektrische Lkw sind derzeit von der Maut befreit. Um die Deckung der Wegekosten gemäß der Wegekostenrichtlinie dennoch sicherzustellen, wird die Infrastrukturkomponente regelmäßig angepasst. Es ist möglich die Maut auch auf Pkw auszuweiten. Zudem können weitere Kosten internalisiert werden, wie Unfallkosten, Abnutzung sowie Natur und Landschaft.
 
