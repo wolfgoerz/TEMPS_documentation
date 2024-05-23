@@ -184,7 +184,7 @@ Beim Malus wird die Kfz-Steuer für Pkw so geändert, dass im ersten Jahr nach d
 Weil zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keinen relevanten Beitrag mehr leisten, kann die absolute Höhe der Zusätzlichen CO2-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
 Der Malus berechnet sich aus:
 
-![8.png](8.png)
+![8neu2.png](8neu2.png)
 mit
 ![9.png](9.png)
 
