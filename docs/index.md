@@ -150,7 +150,8 @@ Bei Lkw hingegen spielt die gesamte Haltedauer eine entscheidende Rolle für die
 Der Anschaffungspreis ergibt sich, wie in 3 beschrieben, direkt aus den Kostenkurven der Fahrzeuge und berücksichtigt aktuelle Batteriepreisprognosen. Er fällt zum Kaufzeitpunkt an und geht daher nicht diskontiert in die TCO ein.
 
 #### 4.1.2 Restwerte
-Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Erlös in die TCO ein. Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet (Dexheimer 2003).  Die Gleichung lautet:
+Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Erlös in die TCO ein. Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet (Dexheimer 2003).
+Die Gleichung lautet:
 
 ![1.png](1.png)
 mit
@@ -180,8 +181,8 @@ mit
 Die Kaufprämie geht direkt als Gutschrift im Anschaffungsjahr in die TCO ein. Es wird davon ausgegangen, dass der Herstelleranteil durch eine Anhebung der Kaufpreise gegenfinanziert wird und damit keine Vergünstigung für den Käufer bewirkt. 
 
 #### 4.1.5 Malus
-Beim Malus wird die Kfz-Steuer für Pkw so geändert, dass im ersten Jahr nach der Neuzulassung eine höhere Kfz-Steuer in Abhängigkeit der CO2-Emissionen pro km eines Fahrzeuges anfällt. Die Höhe des Malus wird immer ausgehend von einer Bemessungsgrenze ermittelt. Unterhalb der Bemessungsgrenze wird kein Malus fällig. Für jedes Gramm CO2 oberhalb der Bemessungsgrenze wird eine einmalige Maluszahlung fällig.
-Weil zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keinen relevanten Beitrag mehr leisten, kann die absolute Höhe der Zusätzlichen CO2-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
+Beim Malus wird die Kfz-Steuer für Pkw so geändert, dass im ersten Jahr nach der Neuzulassung eine höhere Kfz-Steuer in Abhängigkeit der CO<sub>2</sub>-Emissionen pro km eines Fahrzeuges anfällt. Die Höhe des Malus wird immer ausgehend von einer Bemessungsgrenze ermittelt. Unterhalb der Bemessungsgrenze wird kein Malus fällig. Für jedes Gramm CO<sub>2</sub> oberhalb der Bemessungsgrenze wird eine einmalige Maluszahlung fällig.
+Weil zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keinen relevanten Beitrag mehr leisten, kann die absolute Höhe der Zusätzlichen CO<sub>2</sub>-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
 Der Malus berechnet sich aus:
 
 ![8neu2.png](8neu2.png)
@@ -190,9 +191,10 @@ mit
 
 #### 4.1.6 Kraftstoffkosten
 Die Kraftstoffkosten berechnen sich aus den Kraftstoffpreisen, dem Kraftstoffmix je Antrieb, dem Verbrauch pro km und der Jahresfahrleistung. Private Halter zahlen außerdem noch die Mehrwertsteuer auf den Kraftstoffpreis. 
-**hier Formel einfügen**
+
+![10.png](10.png)
 mit
-**hier Beschreibungen**
+![11.png](11.png)
 
 #### 4.1.7 THG-Quote und THG-Prämie
 In der THG-Quote sind Mindestquoten für verschiedene erneuerbare Kraftstoffe definiert (teilweise auch Maximalquoten). Die Erfüllung der THG-Quote führt modellseitig zu steigenden Kosten für konventionelle Kraftstoffe und damit zu einer steigenden TCO für konventionelle Fahrzeuge, da erneuerbare Kraftstoffe höhere Produktionskosten aufweisen. Gleichzeitig sinkt die TCO für batterieelektrische Fahrzeuge, da davon ausgegangen wird, dass die Halter die Quotenberechtigung der BEV an die Inverkehrbringer der konventionellen Kraftstoffe verkaufen können (THG-Prämie).
@@ -202,11 +204,12 @@ Die jährlichen variablen Kosten setzen sich zusammen aus Schmierstoff-, Pflege-
 
 #### 4.1.9 Jährliche Fix-Kosten
 Die jährlichen Fixkosten setzen sich aus der Kfz-Steuer und Versicherungskosten zusammen. Während für die Versicherungskosten durchschnittliche empirische Werte hinterlegt sind, wird die Kfz-Steuer modellseitig individuell für jedes Fahrzeug entsprechend der zum Zeitpunkt geltenden Steuersätze berechnet.
-Die derzeit gültige Kfz-Steuer setzt sich aus einer vom Hubraum abhängigen Komponente und einer CO2-abhängigen Komponente zusammen. Bei der CO2-abhängigen Komponente werden je Gramm CO2-Ausstoß oberhalb eines Freibetrages in Gramm CO2 pro Kilometer unterschiedliche Beträge fällig. Für batterieelektrische Fahrzeuge ist eine Befreiung von der Kfz-Steuer für 10 Jahre hinterlegt, anschließend werden sie gewichtsabhängig besteuert. 
+Die derzeit gültige Kfz-Steuer setzt sich aus einer vom Hubraum abhängigen Komponente und einer CO<sub>2</sub>-abhängigen Komponente zusammen. Bei der CO<sub>2</sub>-abhängigen Komponente werden je Gramm CO<sub>2</sub>-Ausstoß oberhalb eines Freibetrages in Gramm CO<sub>2</sub> pro Kilometer unterschiedliche Beträge fällig. Für batterieelektrische Fahrzeuge ist eine Befreiung von der Kfz-Steuer für 10 Jahre hinterlegt, anschließend werden sie gewichtsabhängig besteuert. 
 Die Kfz-Steuer berechnet sich aus:
-**hier Formel einfügen**
+
+![12.png](12.png)
 mit
-**hier Beschreibungen**
+![13.png](13.png)
 
 #### 4.1.10 Maut
 Für Lkw werden fahrleistungsabhängige Mautkosten berücksichtigt. Die Maut berücksichtigt aktuell die folgenden Kostenkomponenten, mit den derzeit gültigen Mautsätzen:
@@ -229,7 +232,8 @@ Zusätzlich wird im Rahmen der TCO-Rechnung ebenfalls berücksichtigt, dass der 
 Nachdem mit der TCO-Rechnung für jedes Pkw-Nutzungsprofil und jeden Antrieb die jeweils kostengünstigste Effizienz ermittelt wird, wird die Verteilung der Antriebe über ein Logit-Modell bestimmt. Das Logit-Modell ermöglicht es, antriebspezifische Attraktivitätsmerkmale, die über die rein ökonomische Betrachtung hinausgehen, zu berücksichtigen.
 Die Realität zeigt, dass Menschen sich bei der Kaufentscheidung nicht grundsätzlich für das günstigste Fahrzeug entscheiden, sondern stattdessen andere Faktoren wie Komfort, Gewohnheit, Popularität oder Status bei der Kaufentscheidung von großer Bedeutung sind. Das Logit-Modell bildet somit diese antriebsspezifischen Charakteristika ab.
 Die Wahrscheinlichkeit für den Kauf eines Pkw mit dem Antrieb i kann mit dem Logit-Modell mittels der Gleichung
-**hier Formel einfügen**
+
+![14.png](14.png)
 
 beschrieben werden. Dabei bezeichnet *X<sub>i</sub>* einen Pkw mit Antrieb *i*. *val(X<sub>i</sub>)* ist eine Wertfunktion, die der TCO des Fahrzeugs *X<sub>i</sub>* entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u. a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil des Käufers ab. 
 Die Logit-Parameter des Modells werden an den Neuzulassungszahlen des letzten historischen Jahres kalibriert. Es wird davon ausgegangen, dass die Attraktivität von alternativen Antrieben sich bis 2035 sukzessive dem Niveau von Benzinern annähert. Dies liegt an den verschärften CO<sub>2</sub>-Flottenzielwerten, die bis zum Jahr 2035 auf null sinken.
@@ -240,9 +244,9 @@ Eine Kalibrierung anhand der EU-Monitoringdaten stellt zudem sicher, dass die Au
 Die Kaufentscheidung nach Antrieben bei den Nutzfahrzeugen erfolgt – anders als bei den Pkw – allein anhand ökonomischer Kriterien. Dies beruht auf der Annahme, dass bei Logistikunternehmen insbesondere die Wirtschaftlichkeit der Fahrzeuge im Fokus steht. 
 Die Antriebswahl erfolgt über einen direkten Vergleich der TCO aller Antriebsoptionen und Antriebseffizienzen. Wenn die Gesamtnutzungskosten für verschiedene Kaufoptionen sehr ähnlich sind, erfolgt die Auswahl des Antriebs mithilfe einer stochastischen Normalverteilungsfunktion. Damit soll sichergestellt werden, dass ein geringfügiger wirtschaftlicher Vorteil eines Antriebs keine übermäßige Auswirkung auf die Verteilung der Neuzulassungen hat.
 
-**hier Formel einfügen**
+![15.png](15.png)
 
-Die Formel ermittelt jeweils die Auswahlwahrscheinlichkeit P für jede Antriebsoption i in Abhängigkeit der jeweiligen TCO y. Der Mittelwert μ der Verteilungskurve entspricht der TCO der insgesamt günstigsten Antriebsoption.
+Die Formel ermittelt jeweils die Auswahlwahrscheinlichkeit *P* für jede Antriebsoption *i* in Abhängigkeit der jeweiligen TCO *y*. Der Mittelwert μ der Verteilungskurve entspricht der TCO der insgesamt günstigsten Antriebsoption.
 
 ### 4.4 Energieinfrastruktur
 Bei batterieelektrischen Antrieben spielt das Fahrverhalten eine entscheidende Rolle bei der Antriebswahl. Nutzungsprofile, die viele weite Strecken zurücklegen, werden sich - soweit noch keine hinreichende Ladeinfrastruktur besteht - in ihrem Kaufverhalten gegen einen batterieelektrischen Antrieb entscheiden. 
