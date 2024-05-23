@@ -44,6 +44,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - pymdownx.arithmatex:
+      generic: true
 
 
 copyright: |
