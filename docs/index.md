@@ -151,21 +151,61 @@ Der Anschaffungspreis ergibt sich, wie in 3 beschrieben, direkt aus den Kostenku
 #### 4.1.2 Restwerte(!! ab hier noch nicht aktuell)
 Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Erlös in die TCO ein. Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet (Dexheimer 2003).  Die Gleichung lautet:
 
+**hier Formel einfügen**
+mit
+**hier Beschreibungen**
 
+Der Restwert wird anschließend über die Haltedauer diskontiert:
+**hier Formel einfügen**
+**hier Beschreibungen**
 
+#### 4.1.3 Absetzung für Abnutzung (AFA) und Restbuchwert
+Bei gewerblichen Haltern wird die Abschreibung berücksichtigt, welche mindernd auf die Unternehmenssteuern wirkt. Es wird dabei ein Unternehmenssteuersatz von 30 % zu Grunde gelegt, sowie eine Abschreibungsdauer von 6 Jahren für Pkw und leichte Nutzfahrzeuge und 9 Jahren für schwere Nutzfahrzeuge.
 
+Diese erlaubt es 50 % der Investition zusätzlich zur normalen jährlichen Abschreibung bereits im Jahr der Anschaffung steuerlich abzusetzen. Durch die Sonder‐AfA bietet sich dem Steuerpflichtigen die Möglichkeit, im ersten Jahr höhere Verluste steuerlich geltend zu machen und somit seinen zu versteuernden Gewinn zu reduzieren. Ab dem zweiten Jahr kehrt sich dieser Effekt um, da nunmehr ein geringeres Abschreibungsvolumen zur Verfügung steht. Der monetäre Vorteil einer Sonder‐AfA für den Fahrzeughalter beruht somit auf dem Zins‐ und Liquiditätsvorteil, der sich durch eine vorgezogene Abschreibung ergibt.
+Die AFA berechnet sich aus:
 
+**hier Formel einfügen**
+mit
+**hier Beschreibungen**
 
+Bei einem Wiederverkauf des Fahrzeugs vor dem Zeitpunkt der vollständigen Abschreibung (im Regelfall nach 6 Jahren) muss die Differenz zwischen Verkaufserlös und Restbuchwert versteuert werden. Da bei einer Sonder‐AfA der Restbuchwert schneller sinkt, muss beim Wiederverkauf ein höherer Erlös versteuert werden. Der Restbuchwert berechnet sich aus:
 
+**hier Formel einfügen**
+mit
+**hier Beschreibungen**
 
+#### 4.1.4 Kaufprämie
+Die Kaufprämie geht direkt als Gutschrift im Anschaffungsjahr in die TCO ein. Es wird davon ausgegangen, dass der Herstelleranteil durch eine Anhebung der Kaufpreise gegenfinanziert wird und damit keine Vergünstigung für den Käufer bewirkt. 
 
+#### 4.1.5 Malus
+Beim Malus wird die Kfz-Steuer für Pkw so geändert, dass im ersten Jahr nach der Neuzulassung eine höhere Kfz-Steuer in Abhängigkeit der CO2-Emissionen pro km eines Fahrzeuges anfällt. Die Höhe des Malus wird immer ausgehend von einer Bemessungsgrenze ermittelt. Unterhalb der Bemessungsgrenze wird kein Malus fällig. Für jedes Gramm CO2 oberhalb der Bemessungsgrenze wird eine einmalige Maluszahlung fällig.
+Weil zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keinen relevanten Beitrag mehr leisten, kann die absolute Höhe der Zusätzlichen CO2-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
+Der Malus berechnet sich aus:
 
+**hier Formel einfügen**
+mit
+**hier Beschreibungen**
 
+#### 4.1.6 Kraftstoffkosten
+Die Kraftstoffkosten berechnen sich aus den Kraftstoffpreisen, dem Kraftstoffmix je Antrieb, dem Verbrauch pro km und der Jahresfahrleistung. Private Halter zahlen außerdem noch die Mehrwertsteuer auf den Kraftstoffpreis. 
+**hier Formel einfügen**
+mit
+**hier Beschreibungen**
 
+#### 4.1.7 THG-Quote und THG-Prämie
+In der THG-Quote sind Mindestquoten für verschiedene erneuerbare Kraftstoffe definiert (teilweise auch Maximalquoten). Die Erfüllung der THG-Quote führt modellseitig zu steigenden Kosten für konventionelle Kraftstoffe und damit zu einer steigenden TCO für konventionelle Fahrzeuge, da erneuerbare Kraftstoffe höhere Produktionskosten aufweisen. Gleichzeitig sinkt die TCO für batterieelektrische Fahrzeuge, da davon ausgegangen wird, dass die Halter die Quotenberechtigung der BEV an die Inverkehrbringer der konventionellen Kraftstoffe verkaufen können (THG-Prämie).
 
+#### 4.1.8 Variable Kosten
+Die jährlichen variablen Kosten setzen sich zusammen aus Schmierstoff-, Pflege-, Reifen-, Reparatur- und Inspektionskosten. Für die variablen Kosten werden durchschnittliche Werte hinterlegt.
 
-
-
+#### 4.1.9 Jährliche Fix-Kosten
+Die jährlichen Fixkosten setzen sich aus der Kfz-Steuer und Versicherungskosten zusammen. Während für die Versicherungskosten durchschnittliche empirische Werte hinterlegt sind, wird die Kfz-Steuer modellseitig individuell für jedes Fahrzeug entsprechend der zum Zeitpunkt geltenden Steuersätze berechnet.
+Die derzeit gültige Kfz-Steuer setzt sich aus einer vom Hubraum abhängigen Komponente und einer CO2-abhängigen Komponente zusammen. Bei der CO2-abhängigen Komponente werden je Gramm CO2-Ausstoß oberhalb eines Freibetrages in Gramm CO2 pro Kilometer unterschiedliche Beträge fällig. Für batterieelektrische Fahrzeuge ist eine Befreiung von der Kfz-Steuer für 10 Jahre hinterlegt, anschließend werden sie gewichtsabhängig besteuert. 
+Die Kfz-Steuer berechnet sich aus:
+**hier Formel einfügen**
+mit
+**hier Beschreibungen**
 
 
 
