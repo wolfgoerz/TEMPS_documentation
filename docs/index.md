@@ -6,23 +6,26 @@ Diese Dokumentation ist noch in Bearbeitung und wird in Kürze fertiggestellt. (
 
 Das am Öko-Institut entwickelte Modell TEMPS (Transport Emissions and Policy Scenarios) ermöglicht die Quantifizierung der Entwicklung von Endenergiebedarf und Treibhausgasemissionen des Verkehrs in Deutschland. Die Szenarien berücksichtigen unterschiedliche politische und techno-ökonomischen Rahmenbedingungen und können die Wirkung einzelner Politikinstrumente ermitteln. Darüber hinaus lassen sich mit TEMPS die Entwicklung der Neuzulassungsstruktur und des Fahrzeugbestandes von Straßenfahrzeugen sowie Verlagerungen der Verkehrsnachfrage bestimmen.
 
-Im Zentrum des Modells steht die Markthochlaufmodellierung für Straßenfahrzeuge (Pkw, LNF und Lkw) anhand eines umfangreichen Neuzulassungs- und Bestandsmodells. Dieses simuliert die Kaufentscheidung für repräsentative Nutzungsprofile „bottom-up“ unter Berücksichtigung verschiedener technischer, ökonomischer und regulatorischer Bedingungen. Für alle weiteren Verkehrsträger (Schienenverkehr, Schifffahrt, Luftfahrt, Busse, Motorräder, Fahrräder) werden Annahmen über Antriebe und ihre Effizienzentwicklung hinterlegt. 
+Im Zentrum des Modells steht die Markthochlaufmodellierung für Straßenfahrzeuge (Pkw, LNF und Lkw) anhand eines umfangreichen Neuzulassungs- und Bestandsmodells. Dieses simuliert die Kaufentscheidung für repräsentative Nutzungsprofile bottom-up unter Berücksichtigung verschiedener technischer, ökonomischer und regulatorischer Bedingungen. Für alle weiteren Verkehrsträger (Schienenverkehr, Schifffahrt, Luftfahrt, Busse, Motorräder, Fahrräder) werden Annahmen über Antriebe und ihre Effizienzentwicklung hinterlegt. 
 
 Regulatorische Rahmenbedingungen und Entwicklungen des Marktes auf nationaler sowie europäischer Ebene werden in allen Szenarien berücksichtigt. Diese drücken sich beispielsweise durch Steuern, Mautgebühren oder Grenzwerte aus. Ebenso beeinflussen globale Trends die Wirtschaftlichkeit der Fahrzeuge, wie zum Beispiel die Entwicklung von Batterie- und Kraftstoffpreisen. Für die Nutzfahrzeuge spielen insbesondere die CO<sub>2</sub>-Flottenzielwerte, die Lkw-Maut sowie der Ausbau der Lade- und Tankstelleninfrastruktur für alternative Fahrzeugantriebe eine entscheidende Rolle.
 
+___
 
 ## 2 Methodischer Ansatz
 
-TEMPS ist ein Simulationsmodell, das „bottom-up“- und „top-down“-Ansätze miteinander kombiniert. Zunächst wird die Neuzulassungs- und Bestandsstruktur von Pkw und Lkw für rund 2400 Nutzungsprofilen „bottom-up“ basierend auf einem TCO-Modell (Total Costs of Ownership) berechnet. Bei der Antriebswahl für Pkws werden darüber hinaus nicht-ökonomische Verhaltensweise über ein kalibriertes Logit-Modell berücksichtigt. Anschließend werden ermittelte Kennzahlen „top-down“ anhand von u.a. der Verkehrsnachfrage und Energiebilanzdaten sowie weiteren Ist-Daten kalibriert. Die Kalibrierung und das kontinuierliche Nachführen der Ist-Daten stellt eine Kurzfristvalidierung der Modellierung sicher. Das Modell betrachtet die Verkehrsemissionen in Deutschland nach Sektordefinition des Klimaschutzgesetzes. Berücksichtigt wird die Verkehrsleistung nach dem Inlandsprinzip, der Fahrzeugbestand nach dem Inländerprinzip. Internationale Verkehre, welche von- oder nach Deutschland gehen, werden ebenfalls modelliert (Personenflugverkehr, Güterflugverkehr, Güterseeverkehr).
+TEMPS ist ein Simulationsmodell, das bottom-up- und top-down-Ansätze miteinander kombiniert. Zunächst wird die Neuzulassungs- und Bestandsstruktur von Pkw und Lkw für rund 2400 Nutzungsprofilen bottom-up basierend auf einem TCO-Modell (Total Costs of Ownership) berechnet. Bei der Antriebswahl für Pkws werden darüber hinaus nicht-ökonomische Verhaltensweise über ein kalibriertes Logit-Modell berücksichtigt. Anschließend werden ermittelte Kennzahlen „top-down“ anhand von u.a. der Verkehrsnachfrage und Energiebilanzdaten sowie weiteren Ist-Daten kalibriert. Die Kalibrierung und das kontinuierliche Nachführen der Ist-Daten stellt eine Kurzfristvalidierung der Modellierung sicher. Das Modell betrachtet die Verkehrsemissionen in Deutschland nach Sektordefinition des Klimaschutzgesetzes. Berücksichtigt wird die Verkehrsleistung nach dem Inlandsprinzip, der Fahrzeugbestand nach dem Inländerprinzip. Internationale Verkehre, welche von- oder nach Deutschland gehen, werden ebenfalls modelliert (Personenflugverkehr, Güterflugverkehr, Güterseeverkehr).
 
 Die Modellrechnung erfolgt jahresscharf. Es können Prognosen bis zum Jahr 2050 abgebildet werden. Bei Bedarf kann der Simulationszeitraum verlängert werden. Die Szenarioergebnisse werden auf nationaler Ebene ausgegeben. Modellintern werden teilweise räumlich differenzierte Daten verarbeitet, z.B. Personenverkehr unterteilt in die Kategorien urban, suburban und ländlich.
 
 TEMPS besitzt Schnittstellen zu den Modellen PowerFlex und der Energiemodellierung ENUSEM des Öko-Instituts wodurch Wechselwirkungen mit dem Strommarkt abgebildet und Flexibilitätspotenziale der E-Mobilität berücksichtigt werden können. Darüber hinaus besteht eine Schnittstelle zu dem Verteilungswirkungsmodell DhoT (Dynamic Household Transport (microsimulation) Model) des Öko-Instituts sowie einer öknomischen Folgenabschätzung.
 
 
+___
+
 ## 3 Nutzungsprofile und Fahrzeugkonfigurationen
 
-Die Modellierung der Neuzulassungen von Pkw und Lkw basiert auf einem „bottom-up“-Ansatz, indem die Kaufentscheidung von insgesamt rund 2400 Nutzungsprofilen abgebildet wird. Die Gesamtheit der Nutzungsprofile bildet das Fahrverhalten der Bevölkerung im Motorisiertem Individualverkehr (MIV) bzw. der Logistikunternehmen im Güterverkehr repräsentativ ab.
+Die Modellierung der Neuzulassungen von Pkw und Lkw basiert auf einem bottom-up-Ansatz, indem die Kaufentscheidung von insgesamt rund 2400 Nutzungsprofilen abgebildet wird. Die Gesamtheit der Nutzungsprofile bildet das Fahrverhalten der Bevölkerung im Motorisiertem Individualverkehr (MIV) bzw. der Logistikunternehmen im Güterverkehr repräsentativ ab.
 
 Jedes Nutzungsprofil wird durch fünf Merkmale charakterisiert:
 <ul>
@@ -38,6 +41,9 @@ Die Nutzungsprofile im MIV basieren auf dem „Mobilitätspanel“ (MOP) (Ecke e
 
 Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge in den jeweiligen Größenklassen mit verschiedenen Antrieben und Effizienzen zur Verfügung. In Tabelle 1 sind die möglichen Antriebe für Pkw und Lkw dargestellt, die sich auf verschiedene Größenklassen verteilen (Tabelle 2).  
   
+
+
+
 
 <table>
   <caption align="left">Tabelle 1: Mögliche Antriebsoptionen in TEMPS</caption>
@@ -76,7 +82,7 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
 </table>
 
 
- 
+
 <table>
   <caption align="left">Tabelle 2: Größenklassen für Pkw und Lkw</caption>
   <thead>
@@ -107,7 +113,7 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
 
 Für jedes Fahrzeugmodell (definiert über Größenklasse und Antrieb) stehen jährlich verschiedene Kombinationen aus Antriebseffizienz und entsprechendem Anschaffungspreis zur Auswahl. Die Herleitung dieser Kombinationen basiert auf Kostenkurven (Quelle EU IA?).  Zudem werden laufend aktualisierte Prognosen für Batteriekosten berücksichtigt.
 
-
+___
 ## 4 Neuzulassungsmodell
 
 ### 4.1 TCO (Total Costs of Ownership)
@@ -270,7 +276,7 @@ Die Lebensdauern der Pkw im deutschen Bestand wird über Überlebenskurven abgeb
 Die Bestandsmodellierung von Pkw erfolgt in vier Schritten: Zunächst wird für jedes Jahr berechnet, welche Fahrzeuge den Überlebenskurven nach aus dem Bestand ausscheiden. Dann wird der Anteil an Fahrzeugen bestimmt, die nach einer Haltedauer von 3 Jahren von kommerziellen Haltern in den privaten Bestand übergehen. Anschließend wird die Differenz aus der Flotte und dem Zielwert aus dem Input berechnet. Diese Differenz wird dann zu aus der Empirie abgeleiteten Anteilen von kommerziellen und privaten Haltern durch neuzugelassene Fahrzeuge ersetzt.
 
 Die Bestandsmodellierung von Lkw erfolgt analog zur Bestandsmodellierung der Pkw. Da bei den Lkw ein relevanter Teil der Fahrleistung von ausländischen Lkw erbracht wird, stellt dies eine Vereinfachung dar. Die Größe des Lkw-Bestandes ist Inputgröße und abhängig von der Güterverkehrsnachfrage. 
-
+___
 ### 4.6 Verkehrsnachfrage
 
 Die Verkehrsnachfrage ist Inputgröße für die Markthochlaufmodellierung. Sie setzt sich zusammen aus historischen Daten und darauf aufsetzenden spezifischen Steigerungsraten. Die historischen Daten beruhen sowohl bei der Personen- als auch der Güterverkehrsnachfrage auf Daten aus Verkehr in Zahlen (BMVI 2019) Destatis sowie Ergebnissen des Verkehrsnachfragemodells TREMOD des IFEU. Für zukünftige Entwicklungen wird (Stand 2024) auf die Steigerungsraten aus dem Referenzszenario der Mobilitäts- und Kraftstoffstrategie (MKS) REF-2020 (Schade et al. 2023) zurückgegriffen. Dabei berücksichtigt die Personenverkehrsnachfrage zusätzlich die Bevölkerungsentwicklung. Die Trendfortschreibung des Gütertransportaufkommens orientiert sich stark an der Entwicklung des Bruttoinlandsprodukts (BIP) und den damit zusammenhängenden Handelsströmen und Transporten.
@@ -290,14 +296,14 @@ Beim Personenverkehr werden in TEMPS zusätzlich Kapazitätsengpässe auf der Sc
 
 #### 4.6.2 Verkehrsverlagerungen im Güterverkehr
 Im Güterverkehr werden Verlagerungen vom Straßenverkehr auf die Schiene und auf die Binnenschifffahrt betrachtet. Dabei wird angenommen, dass die Änderung der Verkehrsleistung äquivalent zur Änderung der Nutzerkosten erfolgt. Bei den Nutzerkosten werden neben den Kraftstoffkosten auch anfallende Mautgebühren mit einbezogen. Im Güterverkehr sind Elastizitäten aus (Jong et al. 2010) entnommen. Für Änderungen der Transportkosten im Straßen-güterverkehr wird dort anhand einer Literaturrecherche ein konsistentes Set an Elastizitäten angegeben und mit -0,6 in Bezug auf die Verkehrsleistung im Straßengüterverkehr bestimmt. Die Kreuzpreiselastizität für andere Verkehrsträgeroptionen wird dabei auf 0,3 abgeschätzt. Anders als beim Personenverkehr findet im Güterverkehr eine Verlagerung zu 100% statt, das heißt es gibt keine Verkehrsvermeidung durch Kosteneffekte. Von der preisinduzierten Verkehrsverlagerung werden 80% auf die Bahn und 20% auf die Binnenschifffahrt verlagert. Zusätzlich wird bei beiden Verkehrsträgern ein Umwegfaktor von 16% angenommen. Durch die zunehmende Elektrifizierung im Straßengüterverkehr kommt es perspektivisch zur Reduktion der Transportkosten. Dies kann eine Zunahme der Fahrleistung durch Verlagerung mit sich ziehen (Rebound), sofern nicht andere Kosten ansteigen (z.B. Maut). 
-
+___
 ### 4.7 Endenergieverbrauch und Treibhausgasemissionen
 Die Zusammensetzung der Flotte (Lkw und Pkw) nach Fahrzeugtyp wird über die Bestandsmodellierung bestimmt. Dabei wird zunächst die Jahresfahrleistung aus den Nutzungsprofilen übernommen. Hier haben die Nutzungskosten wie beispielsweise Kraftstoffpreise oder Mautgebühren einen direkten Einfluss auf die Verteilung der Fahrleistung nach Antrieben oder Effizienzen. Im Anschluss an die Bestandsmodellierung wird die gesamte Verkehrsnachfrage kalibriert, wobei die Verteilung nach Größenklasse, Region, Halter, Antrieb und Effizienz erhalten bleibt. Anschließend werden Verlagerungseffekte zu anderen Verkehrsträgern (siehe Kapitel 4.6) berücksichtigt.
 
 Die Berechnung des Endenergieverbrauchs erfolgt direkt entlang des spezifischen Verbrauchs der Fahrzeuge der Bestandsflotte. Ladeverluste von Batteriefahrzeugen werden berücksichtigt. Für die Berechnung der Emissionen werden Emissionsfaktoren genutzt. Neben CO<sub>2</sub>-Emissionen werden Lachgas und Methanemissionen berechnet. Zudem werden für den Straßenverkehr auch Luftschadstoffemissionen ermittelt.
 
 
-
+___
 ## 5 Literaturverzeichnis
 
 Agora Verkehrswende (Hg.) (2018): Umparken – den öffentlichen Raum gerechter verteilen. Zahlen und Fakten zum parkraummanagement. 2. Aufl. Unter Mitarbeit von Anne Klein-Hitpaß, Wolfgang Aichinger, Uta Bauer, Martina Hertel, Rosa Rausch, Robert Sedlak und Julia Kirsch-Bauer. tippingpoints GmbH; Deutsches Institut für Urbanistik (Difu). Berlin.
