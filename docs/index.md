@@ -43,11 +43,12 @@ Jedes Nutzungsprofil wird durch fünf Merkmale charakterisiert:
 
 Die Nutzungsprofile im MIV basieren auf dem „Mobilitätspanel“ (MOP) [(Ecke et al. 2021)](#Ecke_2021) und der Studie „Mobilität in Deutschland 2017“ [(Nobis und Kuhnimhof 2018)](#Nobis_2018). Für Lkw und LNF beruhen die Profile auf der Studie „Kraftfahrzeugverkehr in Deutschland 2010“ [(Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) 2010)](#BMVI_2010) und der Fahrleistungserhebung 2014 [(Bäumer et al. 2017; Bundesanstalt für Straßenwesen (BASt) 2015)](#Bäumer_2017).
 
-Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge in den jeweiligen Größenklassen mit verschiedenen Antrieben und Effizienzen zur Verfügung. In Tabelle 1 sind die möglichen Antriebe für Pkw und Lkw dargestellt, die sich auf verschiedene Größenklassen verteilen [(Tabelle 2)](#T2).  
+Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge in den jeweiligen Größenklassen mit verschiedenen Antrieben und Effizienzen zur Verfügung. In [Tabelle 1](#T1) sind die möglichen Antriebe für Pkw und Lkw dargestellt, die sich auf verschiedene Größenklassen verteilen [(Tabelle 2)](#T2).  
   
 
 
 
+<a id="T1"></a>
 
 <table>
   <caption align="left">Tabelle 1: Mögliche Antriebsoptionen in TEMPS</caption>
