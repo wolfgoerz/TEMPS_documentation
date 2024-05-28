@@ -44,6 +44,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_to_html
 
 copyright: |
   &copy; 2023 <a href="https://www.oeko.de/"  target="_blank" rel="noopener">Öko-Institut e.V.</a>
