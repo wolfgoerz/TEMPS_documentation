@@ -1,6 +1,5 @@
 # TEMPS Dokumentation
-
-Diese Dokumentation ist noch in Bearbeitung und wird in Kürze fertiggestellt. (Stand 23.05.2024)
+(Stand Mai 2024)
 
 ## 1 Einleitung
 
