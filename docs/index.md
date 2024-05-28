@@ -285,7 +285,7 @@ Die Bestandsmodellierung von Pkw erfolgt in vier Schritten: Zunächst wird für 
 Die Bestandsmodellierung von Lkw erfolgt analog zur Bestandsmodellierung der Pkw. Da bei den Lkw ein relevanter Teil der Fahrleistung von ausländischen Lkw erbracht wird, stellt dies eine Vereinfachung dar. Die Größe des Lkw-Bestandes ist Inputgröße und abhängig von der Güterverkehrsnachfrage. 
 ___
 <a id="4.6"></a>
-### 4.6 Verkehrsnachfrage{#4.6}
+### 4.6 Verkehrsnachfrage
 
 Die Verkehrsnachfrage ist Inputgröße für die Markthochlaufmodellierung. Sie setzt sich zusammen aus historischen Daten und darauf aufsetzenden spezifischen Steigerungsraten. Die historischen Daten beruhen sowohl bei der Personen- als auch der Güterverkehrsnachfrage auf Daten aus Verkehr in Zahlen (BMVI 2019) Destatis sowie Ergebnissen des Verkehrsnachfragemodells TREMOD des IFEU. Für zukünftige Entwicklungen wird (Stand 2024) auf die Steigerungsraten aus dem Referenzszenario der Mobilitäts- und Kraftstoffstrategie (MKS) REF-2020 (Schade et al. 2023) zurückgegriffen. Dabei berücksichtigt die Personenverkehrsnachfrage zusätzlich die Bevölkerungsentwicklung. Die Trendfortschreibung des Gütertransportaufkommens orientiert sich stark an der Entwicklung des Bruttoinlandsprodukts (BIP) und den damit zusammenhängenden Handelsströmen und Transporten.
 
