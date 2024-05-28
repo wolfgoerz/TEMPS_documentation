@@ -202,8 +202,8 @@ mit
 Die Kaufprämie geht direkt als Gutschrift im Anschaffungsjahr in die TCO ein. Es wird davon ausgegangen, dass der Herstelleranteil der Kaufprämie durch eine Anhebung der Kaufpreise durch die Hersteller gegenfinanziert wird und damit keine Vergünstigung für die/den Käufer*in bewirkt. 
 
 #### 4.1.5 Malus
-Der Malus verändert die Kfz-Steuer für Pkw, sodass im ersten Jahr nach der Neuzulassung eine höhere Steuer in Abhängigkeit der CO2-Emissionen pro km eines Fahrzeuges anfällt. Die Höhe des Malus wird immer ausgehend von einer Bemessungsgrenze ermittelt. Unterhalb der Bemessungsgrenze wird kein Malus fällig. Für jedes Gramm CO2 oberhalb der Bemessungsgrenze wird eine einmalige Zahlung fällig.
-Da zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keine relevante Lenkungswirkung entfalten, kann die absolute Höhe der zusätzlichen CO2-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
+Der Malus verändert die Kfz-Steuer für Pkw, sodass im ersten Jahr nach der Neuzulassung eine höhere Steuer in Abhängigkeit der CO<sub>2</sub>-Emissionen pro km eines Fahrzeuges anfällt. Die Höhe des Malus wird immer ausgehend von einer Bemessungsgrenze ermittelt. Unterhalb der Bemessungsgrenze wird kein Malus fällig. Für jedes Gramm CO<sub>2</sub> oberhalb der Bemessungsgrenze wird eine einmalige Zahlung fällig.
+Da zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keine relevante Lenkungswirkung entfalten, kann die absolute Höhe der zusätzlichen CO<sub>2</sub>-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
 Der Malus berechnet sich aus:
 
 
@@ -226,7 +226,7 @@ Die jährlichen variablen Kosten setzen sich zusammen aus Schmierstoff-, Pflege-
 
 #### 4.1.9 Jährliche Fix-Kosten
 Die jährlichen Fixkosten setzen sich aus der Kfz-Steuer und den Versicherungskosten zusammen. Während für die Versicherungskosten generische Werte hinterlegt sind, wird die Kfz-Steuer modellseitig individuell für jedes Fahrzeug entsprechend der zum Zeitpunkt geltenden Steuersätze berechnet.
-Die derzeit gültige Kfz-Steuer setzt sich aus einer vom Hubraum abhängigen Komponente und einer CO2-abhängigen Komponente zusammen. Bei der CO2-abhängigen Komponente werden je Gramm CO2-Ausstoß oberhalb eines Freibetrages in Gramm CO2 pro Kilometer unterschiedliche Beträge fällig. Für batterieelektrische Fahrzeuge ist eine Befreiung von der Kfz-Steuer für 10 Jahre hinterlegt, anschließend werden sie gewichtsabhängig besteuert. 
+Die derzeit gültige Kfz-Steuer setzt sich aus einer vom Hubraum abhängigen Komponente und einer CO<sub>2</sub>-abhängigen Komponente zusammen. Bei der CO<sub>2</sub>-abhängigen Komponente werden je Gramm CO<sub>2</sub>-Ausstoß oberhalb eines Freibetrages in Gramm CO<sub>2</sub> pro Kilometer unterschiedliche Beträge fällig. Für batterieelektrische Fahrzeuge ist eine Befreiung von der Kfz-Steuer für 10 Jahre hinterlegt, anschließend werden sie gewichtsabhängig besteuert. 
 Die Kfz-Steuer berechnet sich aus:
 
 
@@ -306,7 +306,7 @@ Die internationalen Verkehre (Schiff- und Luftverkehr) sowie der nationale Luftv
 Vermeidung und Verlagerung zu anderen Verkehrsträgern werden im Modell TEMPS durch direkte Preiselastizitäten abgebildet. Die direkte Elastizität beschreibt, wie sich Preisänderungen auf die Verkehrsnachfrage eines bestimmten Verkehrsmittels auswirken. Wenn sich die Verkehrsleistung eines Verkehrsmittels reduziert, kann dies sowohl durch Verkehrsvermeidung als auch durch eine Verlagerung auf andere Verkehrsträger verursacht sein.
 
 Die angewandten Preiselastizitäten für den Personenverkehr sind in [(Hautzinger et al. 2004)](#Hautzinger_2004) empirisch hergeleitet. Für den motorisierten Individualverkehr ergibt sich eine Preiselastizität von -0,3 auf Kraftstoffpreisänderungen sowie eine Kreuzpreiselastizität für den öffentlichen Verkehr von 0,13. Auch die Studie [(Reaños und Sommerfeld 2018)](#Reaños_2021) ermittelt für den Individualverkehr eine Elastizität von durchschnittlich -0,3. Langfristige Preisreaktionen wie die Anpassung der Antriebswahl werden in TEMPS über die TCO-Rechnung abgedeckt. 
-Elastizitäten können in beide Richtungen wirken: Eine zunehmende Elektrifizierung des MIV und dem damit einhergehenden Wirkungsverlust von CO2-abhängigen Preisinstrumenten können langfristig zu einer Zunahme der Verkehrsleistung im MIV führen.
+Elastizitäten können in beide Richtungen wirken: Eine zunehmende Elektrifizierung des MIV und dem damit einhergehenden Wirkungsverlust von CO<sub>2</sub>-abhängigen Preisinstrumenten können langfristig zu einer Zunahme der Verkehrsleistung im MIV führen.
 Beim Personenverkehr werden in TEMPS zusätzlich Kapazitätsengpässe auf der Schiene auf Basis von [(NPM 2021)](#NPM_2021) berücksichtigt. Wenn die abgeleitete maximale Kapazität erreicht ist, wird zusätzliche der sonst auf die Schiene verlagerten Verkehrsleistung vermieden. Zudem wird auf andere Verkehrsträger wie Fernbusse, Linienbusse und Reisebusse verlagert. Dies erfolgt aufgrund der Annahme, dass Busbetreiber flexibler auf eine erhöhte Nachfrage reagieren können. 
 
 #### 4.6.2 Verkehrsverlagerungen im Güterverkehr
@@ -359,7 +359,7 @@ ICAO (2016): ICAO Long-Term Traffic Forecasts, Passenger and Cargo. Internationa
 Jong, Gerard de; Schroten, Arno; van Essen, Huib; Otten, Matthijs; Bucci, Pietro (2010): Price sensitivity of European road freight transport – towards a better understanding of existing results. significance; CE Delft, zuletzt geprüft am 04.10.2016.
 
 <a id="Mock_2010"></a>
-Mock, Peter (2010): Entwicklung eines Szenariomodells zur Simulation der zukünftigen Marktanteile und CO2-Emissionen von Kraftfahrzeugen (VECTOR21). Dissertation. Universität Stuttgart, zuletzt geprüft am 05.10.2016.
+Mock, Peter (2010): Entwicklung eines Szenariomodells zur Simulation der zukünftigen Marktanteile und CO<sub>2</sub>-Emissionen von Kraftfahrzeugen (VECTOR21). Dissertation. Universität Stuttgart, zuletzt geprüft am 05.10.2016.
 
 <a id="Nobis_2018"></a>
 Nobis, Claudia; Kuhnimhof, Tobias (2018): Mobilität in Deutschland – MiD. Ergebnisbericht. FE-Nr. 70.904/15. Hg. v. Bundesministerium für Verkehr und digitale Infrastruktur (BMVI). infas; DLR; IVT; infas 360. Bonn, Berlin. Online verfügbar unter http://www.mobilitaet-in-deutschland.de/pdf/MiD2017_Ergebnisbericht.pdf, zuletzt geprüft am 25.11.2021.
