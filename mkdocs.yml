@@ -2,6 +2,7 @@ site_name: TEMPS Dokumentation
 site_url: https://oekoinstitut.github.io/TEMPS_documentation/
 theme:
   name: material
+  logo: oeko_logo_72dpi_RGB.png
   features:
     - navigation.tabs
     - navigation.sections
