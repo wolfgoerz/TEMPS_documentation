@@ -3,12 +3,19 @@
 
 test \$p(x|y) = \frac{p(y|x)p(x)}{p(y)}\$ und weiter (dies funktioniert noch nicht in einer Zeile auf der Website, in der github Vorschau aber schon)
 
+$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
+
 $$
 E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
 $$
 
 (Blöcke funktionieren) 
 
+$$
+p(v_{i}= 1|h) = \sigma\left(\sum_j w_{ij}h_j + b_i\right)
+$$
+
+$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
 
 ## 1 Einleitung
 
@@ -18,7 +25,6 @@ Im Zentrum des Modells steht die Markthochlaufmodellierung für Straßenfahrzeug
 
 Regulatorische Rahmenbedingungen und Entwicklungen des Marktes auf nationaler sowie europäischer Ebene werden in allen Szenarien berücksichtigt. Diese drücken sich beispielsweise durch Steuern, Mautgebühren oder Grenzwerte aus. Ebenso beeinflussen globale Trends die Wirtschaftlichkeit der Fahrzeuge, wie zum Beispiel die Entwicklung von Batterie- und Kraftstoffpreisen. Für die Nutzfahrzeuge spielen insbesondere die CO<sub>2</sub>-Flottenzielwerte, die Lkw-Maut sowie der Ausbau der Lade- und Tankstelleninfrastruktur für alternative Fahrzeugantriebe eine entscheidende Rolle.
 
-$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
 ___
 
 ## 2 Methodischer Ansatz
@@ -199,9 +205,33 @@ Der Anschaffungspreis ergibt sich direkt aus den Kostenkurven der Fahrzeuge und 
 Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Gutschrift in die TCO ein. Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet [(Dexheimer 2003)](#Dexheimer_2003).
 Die Gleichung lautet:
 
+$$
+C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} + BP)^{d} 
+$$
+
 ![1.png](1.png)
 mit
 ![2.png](2.png)
+
+$$
+C_{rv}: Kosten Restwert
+$$
+
+$$
+a, b, c, d: Konstanten der Regressionskurve
+$$
+$$
+\tau: Haltedauer
+$$
+$$
+M: Jahresfahrleistung
+$$
+$$
+C_{rp}: Anschaffungspreis
+$$
+$$
+BP: Kaufprämie
+$$
 
 Der Restwert wird anschließend über die Haltedauer diskontiert:
 
