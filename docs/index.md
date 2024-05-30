@@ -17,7 +17,7 @@ TEMPS ist ein Simulationsmodell, das bottom-up- und top-down-Ansätze miteinande
 
 ![TEMPS_Schema.png](TEMPS_Schema.png)
 <figure markdown="span">
-  <figcaption>Schematische Darstellung des Modells TEMPS</figcaption>
+  <figcaption>Schematische Darstellung des Modells TEMPS { align=left }</figcaption>
 </figure>
 
 <figure markdown="span">
