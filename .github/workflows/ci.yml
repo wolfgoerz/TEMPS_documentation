@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - master
-      - mainccd
-      - dev
+      - main
 permissions:
   contents: write
 jobs:
