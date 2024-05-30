@@ -47,6 +47,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - tables
+  - mdx_math
+extra_javascript: 
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 copyright: |
   &copy; 2023 <a href="https://www.oeko.de/"  target="_blank" rel="noopener">Öko-Institut e.V.</a>
