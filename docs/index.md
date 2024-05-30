@@ -1,6 +1,15 @@
 # TEMPS Dokumentation
 (Stand Mai 2024)
 
+test \$p(x|y) = \frac{p(y|x)p(x)}{p(y)}\$ und weiter (dies funktioniert noch nicht in einer Zeile auf der Website, in der github Vorschau aber schon)
+
+$$
+E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
+$$
+
+(Blöcke funktionieren) 
+
+
 ## 1 Einleitung
 
 Das am Öko-Institut entwickelte Modell TEMPS (Transport Emissions and Policy Scenarios) ermöglicht die Quantifizierung der Entwicklung von Endenergiebedarf und Treibhausgasemissionen des Verkehrs in Deutschland. Die Szenarien berücksichtigen unterschiedliche politische und techno-ökonomische Rahmenbedingungen und bestimmen u.a. die Entwicklung der Neuzulassungsstruktur, des Fahrzeugbestandes von Straßenfahrzeugen sowie Verlagerungen der Verkehrsnachfrage. TEMPS ermöglicht zudem die Bewertung von spezifischen Politikinstrumenten im Rahmen der Politikberatung.
