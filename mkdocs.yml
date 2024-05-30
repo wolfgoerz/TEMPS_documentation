@@ -2,6 +2,7 @@ site_name: TEMPS Dokumentation
 site_url: https://oekoinstitut.github.io/TEMPS_documentation/
 theme:
   name: material
+  logo: oeko_logo_72dpi_RGB.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -44,6 +45,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - tables
 
 copyright: |
   &copy; 2023 <a href="https://www.oeko.de/"  target="_blank" rel="noopener">Öko-Institut e.V.</a>
