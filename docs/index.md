@@ -9,6 +9,7 @@ Im Zentrum des Modells steht die Markthochlaufmodellierung für Straßenfahrzeug
 
 Regulatorische Rahmenbedingungen und Entwicklungen des Marktes auf nationaler sowie europäischer Ebene werden in allen Szenarien berücksichtigt. Diese drücken sich beispielsweise durch Steuern, Mautgebühren oder Grenzwerte aus. Ebenso beeinflussen globale Trends die Wirtschaftlichkeit der Fahrzeuge, wie zum Beispiel die Entwicklung von Batterie- und Kraftstoffpreisen. Für die Nutzfahrzeuge spielen insbesondere die CO<sub>2</sub>-Flottenzielwerte, die Lkw-Maut sowie der Ausbau der Lade- und Tankstelleninfrastruktur für alternative Fahrzeugantriebe eine entscheidende Rolle.
 
+$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
 ___
 
 ## 2 Methodischer Ansatz
