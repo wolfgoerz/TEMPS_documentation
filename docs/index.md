@@ -20,11 +20,12 @@ TEMPS ist ein Simulationsmodell, das bottom-up- und top-down-Ansätze miteinande
   <figcaption>Schematische Darstellung des Modells TEMPS</figcaption>
 </figure>
 
+<div markdown="1">
 <figure markdown="span">
   ![TEMPS_Schema.png](TEMPS_Schema.png){ width="300" }
   <figcaption>Image caption</figcaption>
 </figure>
-
+</div>
 
 
 Die Modellrechnung erfolgt jahresscharf. Es können Prognosen bis zum Jahr 2050 abgebildet werden. Bei Bedarf kann der Simulationszeitraum verlängert werden. Die Ergebnisse werden auf nationaler Ebene ausgegeben. Modellintern werden teilweise räumlich differenzierte Daten verarbeitet, beispielweise wird der Personenverkehr unterteilt in die Kategorien urban, suburban und ländlich.
