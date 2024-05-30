@@ -379,11 +379,10 @@ Schade W., Anstett P., Berthold D., Emmerich C., Emmerich J., Haug I., Khanna A.
 
 
 test $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$ und weiter
+
 $$
 E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
 $$
-
-\[3 < 4\]
 
 \begin{align}
     p(v_i=1|\mathbf{h}) & = \sigma\left(\sum_j w_{ij}h_j + b_i\right) \\
