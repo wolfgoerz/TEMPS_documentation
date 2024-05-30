@@ -379,9 +379,9 @@ Schade W., Anstett P., Berthold D., Emmerich C., Emmerich J., Haug I., Khanna A.
 
 $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, \(p(x|y) = \frac{p(y|x)p(x)}{p(y)}\).
 
-\\[
+$$
 E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
-\\]
+$$
 
 \[3 < 4\]
 
