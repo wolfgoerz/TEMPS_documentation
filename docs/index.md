@@ -1,9 +1,25 @@
 # TEMPS Dokumentation
 (Stand Mai 2024)
 
-test \$p(x|y) = \frac{p(y|x)p(x)}{p(y)}\$ und weiter (dies funktioniert noch nicht in einer Zeile auf der Website, in der github Vorschau aber schon)
+test $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$ und weiter (dies funktioniert noch nicht in einer Zeile auf der Website, in der github Vorschau aber schon)
 
 $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
+
+$$
+\begin{align}
+  \text{Wo:} \
+  \text{test test}
+\end{align}
+$$
+
+$$
+\begin{align}
+  \text{Wo:} \
+  \text{test test}
+\end{align}
+$$
+
+Test für $inline \ mathe \ x = 4$ mal schauen ob das klappt
 
 $$
 E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
@@ -206,7 +222,7 @@ Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Gutschrift in die 
 Die Gleichung lautet:
 
 $$
-C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} + BP)^{d} 
+C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} * BP)^{d} 
 $$
 
 ![1.png](1.png)
@@ -214,23 +230,14 @@ mit
 ![2.png](2.png)
 
 $$
-C_{rv}: Kosten Restwert
-$$
-
-$$
-a, b, c, d: Konstanten der Regressionskurve
-$$
-$$
-\tau: Haltedauer
-$$
-$$
-M: Jahresfahrleistung
-$$
-$$
-C_{rp}: Anschaffungspreis
-$$
-$$
-BP: Kaufprämie
+\begin{align*}
+  C_{rv}: \text{Kosten Restwert} \\
+  a, b, c, d: \text{Konstanten der Regressionskurve} \\
+  \tau: \text{Haltedauer} \\
+  M: \text{Jahresfahrleistung} \\
+  C_{rp}: \text{Anschaffungspreis} \\
+  BP: \text{Kaufprämie} \\
+\end{align*}
 $$
 
 Der Restwert wird anschließend über die Haltedauer diskontiert:
