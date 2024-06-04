@@ -270,18 +270,41 @@ Die Sonderabschreibung (Sonder-AfA) erlaubt es 50 % der Investition zusätzlich 
 Die AFA berechnet sich aus:
 
 $$
-C_{AFA} = \sum_{j=1}{\tau}{\frac{C_{rp} * SA(j) * bt}{(1+c_{i})^j}}
+C_{AFA} = \sum\limits_{j=1}^{\tau}{\frac{C_{rp} * SA(j) * bt}{(1+c_{i})^j}}
 $$
 
 ![4.png](4.png)
 mit
 ![5.png](5.png)
 
+$$
+\begin{align*}
+  \tau: \text{Haltedauer} \\
+  C_{rp}: \text{Fahrzeugkosten} \\
+  SA(j): \text{Anteil der Abschreibung im Haltejahr} \\
+  bt: \text{Unternehmenssteuersatz} \\
+  c_{i}: \text{Diskontierungsrate} \\
+\end{align*}
+$$
+
 Bei einem Wiederverkauf des Fahrzeugs vor dem Zeitpunkt der vollständigen Abschreibung muss die Differenz zwischen Verkaufserlös und Restbuchwert versteuert werden. Da bei einer Sonder‐AfA der Restbuchwert schneller sinkt, muss beim Wiederverkauf ein höherer Erlös versteuert werden. Der Restbuchwert berechnet sich aus:
+
+$$
+C_{RT} = C_{rp} * \frac{(1-\sum\limits_{j=1}^{\tau}{SA(j)})}{(1+c_{i})^j}
+$$
 
 ![6.png](6.png)
 mit
 ![7.png](7.png)
+
+$$
+\begin{align*}
+  C_{rp}: \text{Fahrzeugkosten} \\
+  SA(j): \text{Anteil der Abschreibung im Haltejahr} \\
+  c_{i}: \text{Diskontierungsrate} \\
+  \tau: \text{Haltedauer} \\
+\end{align*}
+$$
 
 #### 4.1.4 Kaufprämie
 Die Kaufprämie geht direkt als Gutschrift im Anschaffungsjahr in die TCO ein. Es wird davon ausgegangen, dass der Herstelleranteil der Kaufprämie durch eine Anhebung der Kaufpreise durch die Hersteller gegenfinanziert wird und damit keine Vergünstigung für die/den Käufer*in bewirkt. 
@@ -291,17 +314,51 @@ Der Malus verändert die Kfz-Steuer für Pkw, sodass im ersten Jahr nach der Neu
 Da zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keine relevante Lenkungswirkung entfalten, kann die absolute Höhe der zusätzlichen CO<sub>2</sub>-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
 Der Malus berechnet sich aus:
 
+$$
+C_{M} = min ((max(0, em - \varepsilon_{M})) * c_{M}),(C_{rp} * \theta_{M}))
+$$
 
 ![8neu2.png](8neu2.png)
 mit
 ![9.png](9.png)
 
+$$
+\begin{align*}
+  em: \text{Emissionen in} g CO_{2} \text{pro km}\\
+  \varepsilon_{ M }: \text{Bemessungsgrenze Malus} \\
+  c_{M}: \text{Höhe des Malus in Euro pro} gCO_{2} \\
+  C_{rp}: \text{Fahrzeugpreis} \\
+  \theta_{ M }: \text{maximaler Anteil des Malus am Fahrzeugpreis} \\
+\end{align*}
+$$
+
 #### 4.1.6 Kraftstoffkosten
 Die Kraftstoffkosten berechnen sich aus den Kraftstoffpreisen, dem Kraftstoffmix je Antrieb, dem Verbrauch pro km und der Jahresfahrleistung. Private Haltende zahlen zudem die Mehrwertsteuer auf den Kraftstoffpreis. 
+
+$$
+C_{f} = (\sum\limits_{i=1}^{ft}{con(i) * f_{share}(i) * c_{f}(i) * (1+vat)}) * M
+$$
+
+$$
+C_{F} = \sum\limits_{j=1}^{\tau}{\frac{C_{f}}{(1+c_{i})^j}}
+$$
 
 ![10.png](10.png)
 mit
 ![11.png](11.png)
+
+$$
+\begin{align*}
+  ft: \text{Kraftstoffe} \\
+  con(ft): \text{Verbrauch pro km (real) des Kraftstoffs} \\
+  f_{share}: \text{Anteil des Kraftstoffs am Gesamtverbrauch} \\
+  M: \text{Mileage} \\
+  c_{f}(ft): \text{Kraftstoffpreis pro km} \\
+  vat: \text{Mehrwegsteuer (je nach Fahrzeughalter} \\
+  c_{i}: \text{Diskontierungsrate} \\
+  \tau: \text{Haltedauer} \\
+\end{align*}
+$$
 
 #### 4.1.7 THG-Quote und THG-Prämie
 In der THG-Quote sind Mindestquoten (und teilweise Maximalquoten) für verschiedene erneuerbare Kraftstoffe definiert. Die Erfüllung der THG-Quote führt modellseitig zu steigenden Kosten für konventionelle Kraftstoffe und damit zu einer steigenden TCO für konventionelle Fahrzeuge, da erneuerbare Kraftstoffe höhere Produktionskosten aufweisen. Gleichzeitig sinkt die TCO für batterieelektrische Fahrzeuge, da die Haltenden ihre Quotenberechtigung an die Inverkehrbringenden der konventionellen Kraftstoffe verkaufen können (THG-Prämie).
@@ -314,10 +371,23 @@ Die jährlichen Fixkosten setzen sich aus der Kfz-Steuer und den Versicherungsko
 Die derzeit gültige Kfz-Steuer setzt sich aus einer vom Hubraum abhängigen Komponente und einer CO<sub>2</sub>-abhängigen Komponente zusammen. Bei der CO<sub>2</sub>-abhängigen Komponente werden je Gramm CO<sub>2</sub>-Ausstoß oberhalb eines Freibetrages in Gramm CO<sub>2</sub> pro Kilometer unterschiedliche Beträge fällig. Für batterieelektrische Fahrzeuge ist eine Befreiung von der Kfz-Steuer für 10 Jahre hinterlegt, anschließend werden sie gewichtsabhängig besteuert. 
 Die Kfz-Steuer berechnet sich aus:
 
+$$
+C_{vt} = (cap * c_{cap}) + (max(0, (em - \varepsilon_{vt}) * c_{vt}))
+$$
 
 ![12.png](12.png)
 mit
 ![13.png](13.png)
+
+$$
+\begin{align*}
+  cap: \text{Hubraumvolumen} \\
+  c_{cap}: \text{Kosten pro Hubraumvolumen} \\
+  em: gCO_{2} \text{ pro km} \\
+  \varepsilon_{vt}: \text{Bemessungsgrenze der } CO_{2} \text{ Komponente der Kfz-Steuer}\\
+  c_{vt}: \text{Höhe der } CO_{2} \text{Komponente der Kfz-Steuer in Euro pro } gCO_{2}\\
+\end{align*}
+$$
 
 #### 4.1.10 Maut
 Für Lkw werden fahrleistungsabhängige Mautkosten berücksichtigt. Die Maut berücksichtigt aktuell die folgenden Kostenkomponenten, mit den entsprechend gültigen Mautsätzen:
@@ -345,9 +415,13 @@ Die Realität zeigt, dass Menschen sich bei der Kaufentscheidung nicht grundsät
 
 Die Wahrscheinlichkeit für den Kauf eines Pkw mit dem Antrieb i kann mit dem Logit-Modell mittels der Gleichung
 
+$$
+P(X_{i}) = \frac{e^{val(x_{i})}}{\sum\limits_{j=1}^{i}{e^{val(x_{j})}}}
+$$
+
 ![14.png](14.png)
 
-beschrieben werden. Dabei bezeichnet *X<sub>i</sub>* einen Pkw mit Antrieb *i*. *val(X<sub>i</sub>)* ist eine Wertfunktion, die der TCO des Fahrzeugs *X<sub>i</sub>* entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u.a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil der/des Kaufenden ab. 
+beschrieben werden. Dabei bezeichnet $X_{i}$ einen Pkw mit Antrieb $i$. $val(X_{i})$ ist eine Wertfunktion, die der TCO des Fahrzeugs $X_{i}$ entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u.a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil der/des Kaufenden ab. 
 Die Logit-Parameter des Modells werden an den Neuzulassungszahlen des letzten historischen Jahres kalibriert. Es wird davon ausgegangen, dass die Attraktivität von alternativen Antrieben sich bis 2035 sukzessive dem Niveau von Benzinern annähert. Dies liegt an den verschärften CO<sub>2</sub>-Flottenzielwerten, die bis zum Jahr 2035 auf null sinken.
 Eine Kalibrierung anhand der EU-Monitoringdaten stellt zudem sicher, dass die Auswahl der Fahrzeugeffizienzen mit den Ist-Daten übereinstimmt und auch in der Prognose zuverlässig ist. 
 
@@ -356,9 +430,13 @@ Eine Kalibrierung anhand der EU-Monitoringdaten stellt zudem sicher, dass die Au
 Die Kaufentscheidung nach Antrieben bei den Nutzfahrzeugen erfolgt – anders als bei den Pkw – allein anhand ökonomischer Kriterien. Dies beruht auf der Annahme, dass bei Logistikunternehmen insbesondere die Wirtschaftlichkeit der Fahrzeuge im Fokus steht. 
 Die Antriebswahl erfolgt über einen direkten Vergleich der TCO aller Antriebsoptionen und Antriebseffizienzen. Wenn die Gesamtnutzungskosten für verschiedene Kaufoptionen sehr ähnlich sind, erfolgt die Auswahl des Antriebs mithilfe einer stochastischen Normalverteilungsfunktion. Damit soll sichergestellt werden, dass ein geringfügiger wirtschaftlicher Vorteil eines Antriebs keine übermäßige Auswirkung auf die Verteilung der Neuzulassungen hat.
 
+$$
+P_{i}(y_{i}) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(y_{i} - \mu)^{2}}{2\sigma^{2}}}
+$$
+
 ![15.png](15.png)
 
-Die Formel ermittelt jeweils die Auswahlwahrscheinlichkeit *P* für jede Antriebsoption *i* in Abhängigkeit der jeweiligen TCO *y*. Der Mittelwert *μ* der Verteilungskurve entspricht der TCO der insgesamt günstigsten Antriebsoption.
+Die Formel ermittelt jeweils die Auswahlwahrscheinlichkeit $P$ für jede Antriebsoption $i$ in Abhängigkeit der jeweiligen TCO $y$. Der Mittelwert $\mu$ der Verteilungskurve entspricht der TCO der insgesamt günstigsten Antriebsoption.
 
 ### 4.4 Energieinfrastruktur
 
