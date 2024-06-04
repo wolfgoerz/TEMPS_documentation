@@ -242,11 +242,36 @@ $$
 
 Der Restwert wird anschließend über die Haltedauer diskontiert:
 
+$$
+C_{RV} =  - \frac{C_{rv}}{(1+c_{i})^\tau}
+$$
+
+mit
+
+$$
+\begin{align*}
+  c_{i}: \text{Diskontierungsrate} \\
+  \tau: \text{Haltedauer} \\
+\end{align*}
+$$
+
+bzw mit 
+
+$c_{i}:$ Diskonierungsrate
+
+$\tau:$ Haltedauer
+
+@Inia: welche der beiden Versionen?
+
 ![3.png](3.png)
 
 #### 4.1.3 Absetzung für Abnutzung (AFA) und Restbuchwert
 Die Sonderabschreibung (Sonder-AfA) erlaubt es 50 % der Investition zusätzlich zur normalen jährlichen Abschreibung bereits im Jahr der Anschaffung steuerlich abzusetzen. Durch die Sonder‐AfA bietet sich der/dem Steuerpflichtigen die Möglichkeit, im ersten Jahr höhere Verluste steuerlich geltend zu machen und somit seinen zu versteuernden Gewinn zu reduzieren. Ab dem zweiten Jahr kehrt sich dieser Effekt um, da nunmehr ein geringeres Abschreibungsvolumen zur Verfügung steht. Der monetäre Vorteil einer Sonder‐AfA für die/den Fahrzeughalter*in beruht somit auf dem Zins‐ und Liquiditätsvorteil, der sich durch eine vorgezogene Abschreibung ergibt.
 Die AFA berechnet sich aus:
+
+$$
+C_{AFA} = \sum_{j=1}{\tau}{\frac{C_{rp} * SA(j) * bt}{(1+c_{i})^j}}
+$$
 
 ![4.png](4.png)
 mit
