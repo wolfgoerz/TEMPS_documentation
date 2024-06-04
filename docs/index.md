@@ -379,3 +379,13 @@ Schade W., Anstett P., Berthold D., Emmerich C., Emmerich J., Haug I., Khanna A.
 
 test `#!math p(x|y) = \frac{p(y|x)p(x)}{p(y)}` test
 
+$$
+\begin{align*}
+  C_{rv}: \text{Kosten Restwert} \\
+  a, b, c, d: \text{Konstanten der Regressionskurve} \\
+  \tau: \text{Haltedauer} \\
+  M: \text{Jahresfahrleistung} \\
+  C_{rp}: \text{Anschaffungspreis} \\
+  BP: \text{Kaufprämie} \\
+\end{align*}
+$$
