@@ -324,9 +324,9 @@ mit
 
 $$
 \begin{align*}
-  em: \text{Emissionen in} g CO_{2} \text{pro km}\\
+  em: \text{Emissionen in } g CO_{2} \text{ pro km}\\
   \varepsilon_{ M }: \text{Bemessungsgrenze Malus} \\
-  c_{M}: \text{Höhe des Malus in Euro pro} gCO_{2} \\
+  c_{M}: \text{Höhe des Malus in Euro pro } gCO_{2} \\
   C_{rp}: \text{Fahrzeugpreis} \\
   \theta_{ M }: \text{maximaler Anteil des Malus am Fahrzeugpreis} \\
 \end{align*}
@@ -385,7 +385,7 @@ $$
   c_{cap}: \text{Kosten pro Hubraumvolumen} \\
   em: gCO_{2} \text{ pro km} \\
   \varepsilon_{vt}: \text{Bemessungsgrenze der } CO_{2} \text{ Komponente der Kfz-Steuer}\\
-  c_{vt}: \text{Höhe der } CO_{2} \text{Komponente der Kfz-Steuer in Euro pro } gCO_{2}\\
+  c_{vt}: \text{Höhe der } CO_{2} \text{ Komponente der Kfz-Steuer in Euro pro } gCO_{2}\\
 \end{align*}
 $$
 
