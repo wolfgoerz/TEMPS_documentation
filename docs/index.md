@@ -20,19 +20,7 @@ TEMPS ist ein Simulationsmodell, das bottom-up- und top-down-Ansätze miteinande
   <figcaption>Schematische Darstellung des Modells TEMPS</figcaption>
 </figure>
 
-testesttest
-
-<figure markdown="span">
-  ![TEMPS_Schema.png](TEMPS_Schema.png)
-  <figcaption>Image caption</figcaption>
-</figure>
-
-<figure markdown="span">
-  ![Image title](https://dummyimage.com/600x400/){ width="300" }
-  <figcaption>Image caption</figcaption>
-</figure>
-
-
+                                                      
 Die Modellrechnung erfolgt jahresscharf. Es können Prognosen bis zum Jahr 2050 abgebildet werden. Bei Bedarf kann der Simulationszeitraum verlängert werden. Die Ergebnisse werden auf nationaler Ebene ausgegeben. Modellintern werden teilweise räumlich differenzierte Daten verarbeitet, beispielweise wird der Personenverkehr unterteilt in die Kategorien urban, suburban und ländlich.
 
 TEMPS besitzt Schnittstellen zu den Modellen PowerFlex und der Energiemodellierung ENUSEM des Öko-Instituts, wodurch Wechselwirkungen mit dem Strommarkt abgebildet und Flexibilitätspotenziale der E-Mobilität berücksichtigt werden können. Darüber hinaus besteht eine Schnittstelle zu dem Verteilungswirkungsmodell DhoT (Dynamic Household Transport (microsimulation) Model) des Öko-Instituts sowie einer ökonomischen Folgenabschätzung.
@@ -193,33 +181,19 @@ $$
 C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} * BP)^{d} 
 $$
 
-![1.png](1.png)
 mit
-![2.png](2.png)
 
-$$
-\begin{align*}
-  C_{rv}: \text{Kosten Restwert} \\
-  a, b, c, d: \text{Konstanten der Regressionskurve} \\
-  \tau: \text{Haltedauer} \\
-  M: \text{Jahresfahrleistung} \\
-  C_{rp}: \text{Anschaffungspreis} \\
-  BP: \text{Kaufprämie} \\
-\end{align*}
-$$
+\\(C_{rv}:\\) Kosten Restwert
 
+\\(a, b, c, d:\\) Konstanten der Regressionskurve
 
-$C_{rv}:$ Kosten Restwert
+\\(\tau:\\) Haltedauer
 
-$a, b, c, d:$ Konstanten der Regressionskurve
+\\(M:\\) Jahresfahrleistung
 
-$\tau:$ Haltedauer
+\\(C_{rp}:\\) Anschaffungspreis
 
-$M:$ Jahresfahrleistung
-
-$C_{rp}:$ Anschaffungspreis
-
-$BP:$ Kaufprämie
+\\(BP:\\) Kaufprämie
 
 
 Der Restwert wird anschließend über die Haltedauer diskontiert:
@@ -230,22 +204,10 @@ $$
 
 mit
 
-$$
-\begin{align*}
-  c_{i}: \text{Diskontierungsrate} \\
-  \tau: \text{Haltedauer} \\
-\end{align*}
-$$
+\\(c_{i}:\\) Diskonierungsrate
 
-bzw mit 
+\\(\tau:\\) Haltedauer
 
-$c_{i}:$ Diskonierungsrate
-
-$\tau:$ Haltedauer
-
-@Inia: welche der beiden Versionen?
-
-![3.png](3.png)
 
 #### 4.1.3 Absetzung für Abnutzung (AFA) und Restbuchwert
 Die Sonderabschreibung (Sonder-AfA) erlaubt es 50 % der Investition zusätzlich zur normalen jährlichen Abschreibung bereits im Jahr der Anschaffung steuerlich abzusetzen. Durch die Sonder‐AfA bietet sich der/dem Steuerpflichtigen die Möglichkeit, im ersten Jahr höhere Verluste steuerlich geltend zu machen und somit seinen zu versteuernden Gewinn zu reduzieren. Ab dem zweiten Jahr kehrt sich dieser Effekt um, da nunmehr ein geringeres Abschreibungsvolumen zur Verfügung steht. Der monetäre Vorteil einer Sonder‐AfA für die/den Fahrzeughalter*in beruht somit auf dem Zins‐ und Liquiditätsvorteil, der sich durch eine vorgezogene Abschreibung ergibt.
@@ -255,19 +217,18 @@ $$
 C_{AFA} = \sum\limits_{j=1}^{\tau}{\frac{C_{rp} * SA(j) * bt}{(1+c_{i})^j}}
 $$
 
-![4.png](4.png)
 mit
-![5.png](5.png)
 
-$$
-\begin{align*}
-  \tau: \text{Haltedauer} \\
-  C_{rp}: \text{Fahrzeugkosten} \\
-  SA(j): \text{Anteil der Abschreibung im Haltejahr} \\
-  bt: \text{Unternehmenssteuersatz} \\
-  c_{i}: \text{Diskontierungsrate} \\
-\end{align*}
-$$
+\\(\tau:\\) Haltedauer
+
+\\(C_{rp}:\\) Fahrzeugkosten
+
+\\(SA(j):\\) Anteil der Abschreibung im Haltejahr
+
+\\(bt:\\) Unternehmenssteuersatz
+
+\\(c_{i}:\\) Diskontierungsrate
+
 
 Bei einem Wiederverkauf des Fahrzeugs vor dem Zeitpunkt der vollständigen Abschreibung muss die Differenz zwischen Verkaufserlös und Restbuchwert versteuert werden. Da bei einer Sonder‐AfA der Restbuchwert schneller sinkt, muss beim Wiederverkauf ein höherer Erlös versteuert werden. Der Restbuchwert berechnet sich aus:
 
@@ -275,18 +236,16 @@ $$
 C_{RT} = C_{rp} * \frac{(1-\sum\limits_{j=1}^{\tau}{SA(j)})}{(1+c_{i})^j}
 $$
 
-![6.png](6.png)
 mit
-![7.png](7.png)
 
-$$
-\begin{align*}
-  C_{rp}: \text{Fahrzeugkosten} \\
-  SA(j): \text{Anteil der Abschreibung im Haltejahr} \\
-  c_{i}: \text{Diskontierungsrate} \\
-  \tau: \text{Haltedauer} \\
-\end{align*}
-$$
+\\(C_{rp}:\\) Fahrzeugkosten
+
+\\(SA(j):\\) Anteil der Abschreibung im Haltejahr
+
+\\(c_{i}:\\) Diskontierungsrate
+
+\\(\tau:\\) Haltedauer
+
 
 #### 4.1.4 Kaufprämie
 Die Kaufprämie geht direkt als Gutschrift im Anschaffungsjahr in die TCO ein. Es wird davon ausgegangen, dass der Herstelleranteil der Kaufprämie durch eine Anhebung der Kaufpreise durch die Hersteller gegenfinanziert wird und damit keine Vergünstigung für die/den Käufer*in bewirkt. 
@@ -300,19 +259,18 @@ $$
 C_{M} = min ((max(0, em - \varepsilon_{M})) * c_{M}),(C_{rp} * \theta_{M}))
 $$
 
-![8neu2.png](8neu2.png)
 mit
-![9.png](9.png)
 
-$$
-\begin{align*}
-  em: \text{Emissionen in } g CO_{2} \text{ pro km}\\
-  \varepsilon_{ M }: \text{Bemessungsgrenze Malus} \\
-  c_{M}: \text{Höhe des Malus in Euro pro } gCO_{2} \\
-  C_{rp}: \text{Fahrzeugpreis} \\
-  \theta_{ M }: \text{maximaler Anteil des Malus am Fahrzeugpreis} \\
-\end{align*}
-$$
+\\(em:\\) Emissionen in \\(g CO_{2}\\) pro km
+
+\\(\varepsilon_{M}:\\) Bemessungsgrenze Malus
+
+\\(c_{M}:\\) Höhe des Malus in Euro pro \\(g CO_{2}\\)
+
+\\(C_{rp}:\\) Fahrzeugpreis
+
+\\(\theta_{M}:\\) maximaler Anteil des Malus am Fahrzeugpreis
+
 
 #### 4.1.6 Kraftstoffkosten
 Die Kraftstoffkosten berechnen sich aus den Kraftstoffpreisen, dem Kraftstoffmix je Antrieb, dem Verbrauch pro km und der Jahresfahrleistung. Private Haltende zahlen zudem die Mehrwertsteuer auf den Kraftstoffpreis. 
@@ -325,22 +283,24 @@ $$
 C_{F} = \sum\limits_{j=1}^{\tau}{\frac{C_{f}}{(1+c_{i})^j}}
 $$
 
-![10.png](10.png)
 mit
-![11.png](11.png)
 
-$$
-\begin{align*}
-  ft: \text{Kraftstoffe} \\
-  con(ft): \text{Verbrauch pro km (real) des Kraftstoffs} \\
-  f_{share}: \text{Anteil des Kraftstoffs am Gesamtverbrauch} \\
-  M: \text{Mileage} \\
-  c_{f}(ft): \text{Kraftstoffpreis pro km} \\
-  vat: \text{Mehrwegsteuer (je nach Fahrzeughalter} \\
-  c_{i}: \text{Diskontierungsrate} \\
-  \tau: \text{Haltedauer} \\
-\end{align*}
-$$
+\\(ft:\\) Kraftstoffe
+
+\\(con(ft):\\) Verbrauch pro km (real) des Kraftstoffs
+
+\\(f_{share}:\\) Anteil des Kraftstoffs am Gesamtverbrauch
+
+\\(M:\\) Mileage
+
+\\(c_{f}(ft):\\) Kraftstoffpreis pro km
+
+\\(vat:\\) Mehrwegsteuer (je nach Fahrzeughalter)
+
+\\(c_{i}:\\) Diskontierungsrate
+
+\\(\tau:\\) Haltedauer
+
 
 #### 4.1.7 THG-Quote und THG-Prämie
 In der THG-Quote sind Mindestquoten (und teilweise Maximalquoten) für verschiedene erneuerbare Kraftstoffe definiert. Die Erfüllung der THG-Quote führt modellseitig zu steigenden Kosten für konventionelle Kraftstoffe und damit zu einer steigenden TCO für konventionelle Fahrzeuge, da erneuerbare Kraftstoffe höhere Produktionskosten aufweisen. Gleichzeitig sinkt die TCO für batterieelektrische Fahrzeuge, da die Haltenden ihre Quotenberechtigung an die Inverkehrbringenden der konventionellen Kraftstoffe verkaufen können (THG-Prämie).
@@ -357,19 +317,18 @@ $$
 C_{vt} = (cap * c_{cap}) + (max(0, (em - \varepsilon_{vt}) * c_{vt}))
 $$
 
-![12.png](12.png)
 mit
-![13.png](13.png)
 
-$$
-\begin{align*}
-  cap: \text{Hubraumvolumen} \\
-  c_{cap}: \text{Kosten pro Hubraumvolumen} \\
-  em: gCO_{2} \text{ pro km} \\
-  \varepsilon_{vt}: \text{Bemessungsgrenze der } CO_{2} \text{ Komponente der Kfz-Steuer}\\
-  c_{vt}: \text{Höhe der } CO_{2} \text{ Komponente der Kfz-Steuer in Euro pro } gCO_{2}\\
-\end{align*}
-$$
+\\(cap:\\) Hubraumvolumen
+
+\\(c_{cap}:\\) Kosten pro Hubraumvolumen
+
+\\(em: gCO_{2}\\) pro km
+
+\\(\varepsilon_{vt}:\\) Bemessungsgrenze der \\(CO_{2}\\) Komponente der Kfz-Steuer
+
+\\(c_{vt}:\\) Höhe der \\(CO_{2}\\) Komponente der Kfz-Steuer in Euro pro \\(g CO_{2}\\)
+
 
 #### 4.1.10 Maut
 Für Lkw werden fahrleistungsabhängige Mautkosten berücksichtigt. Die Maut berücksichtigt aktuell die folgenden Kostenkomponenten, mit den entsprechend gültigen Mautsätzen:
@@ -401,9 +360,8 @@ $$
 P(X_{i}) = \frac{e^{val(x_{i})}}{\sum\limits_{j=1}^{i}{e^{val(x_{j})}}}
 $$
 
-![14.png](14.png)
 
-beschrieben werden. Dabei bezeichnet $X_{i}$ einen Pkw mit Antrieb $i$. $val(X_{i})$ ist eine Wertfunktion, die der TCO des Fahrzeugs $X_{i}$ entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u.a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil der/des Kaufenden ab. 
+beschrieben werden. Dabei bezeichnet \\(X_{i}\\) einen Pkw mit Antrieb \\(i\\). \\(val(X_{i})\\) ist eine Wertfunktion, die der TCO des Fahrzeugs \\(X_{i}\\) entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u.a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil der/des Kaufenden ab. 
 Die Logit-Parameter des Modells werden an den Neuzulassungszahlen des letzten historischen Jahres kalibriert. Es wird davon ausgegangen, dass die Attraktivität von alternativen Antrieben sich bis 2035 sukzessive dem Niveau von Benzinern annähert. Dies liegt an den verschärften CO<sub>2</sub>-Flottenzielwerten, die bis zum Jahr 2035 auf null sinken.
 Eine Kalibrierung anhand der EU-Monitoringdaten stellt zudem sicher, dass die Auswahl der Fahrzeugeffizienzen mit den Ist-Daten übereinstimmt und auch in der Prognose zuverlässig ist. 
 
@@ -416,9 +374,8 @@ $$
 P_{i}(y_{i}) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(y_{i} - \mu)^{2}}{2\sigma^{2}}}
 $$
 
-![15.png](15.png)
 
-Die Formel ermittelt jeweils die Auswahlwahrscheinlichkeit $P$ für jede Antriebsoption $i$ in Abhängigkeit der jeweiligen TCO $y$. Der Mittelwert $\mu$ der Verteilungskurve entspricht der TCO der insgesamt günstigsten Antriebsoption.
+Die Formel ermittelt jeweils die Auswahlwahrscheinlichkeit \\(P\\) für jede Antriebsoption \\(i\\) in Abhängigkeit der jeweiligen TCO \\(y\\). Der Mittelwert \\(\mu\\) der Verteilungskurve entspricht der TCO der insgesamt günstigsten Antriebsoption.
 
 ### 4.4 Energieinfrastruktur
 
