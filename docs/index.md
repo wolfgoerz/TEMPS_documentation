@@ -379,6 +379,8 @@ Schade W., Anstett P., Berthold D., Emmerich C., Emmerich J., Haug I., Khanna A.
 
 $$C_{rv}:$$ Kosten Restwert
 
+\(a + b = x\) wird so geschrieben
+
 $a, b, c, d:$ Konstanten der Regressionskurve
 
 $\tau:$ Haltedauer
