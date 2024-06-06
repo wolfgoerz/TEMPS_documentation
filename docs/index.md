@@ -163,7 +163,7 @@ Die Bestimmung der Kaufentscheidung eines Nutzungsprofils erfolgt in mehreren Sc
       <td>Sonstige variable Kosten<br>(Wartung, Reparatur etc.)</td>
     </tr>
     <tr>
-      <td>**Gutschrift*</td>
+      <td><i>*Gutschrift</i></td>
       <td></td>
     </tr>
   </tbody>
