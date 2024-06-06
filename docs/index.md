@@ -1,5 +1,5 @@
 # TEMPS Dokumentation
-(Stand Mai 2024)
+*(Stand Mai 2024)*
 
 ## 1 Einleitung
 
@@ -162,9 +162,13 @@ Die Bestimmung der Kaufentscheidung eines Nutzungsprofils erfolgt in mehreren Sc
       <td>Malus (optional)</td>
       <td>Sonstige variable Kosten<br>(Wartung, Reparatur etc.)</td>
     </tr>
+    <tr>
+      <td>**Gutschrift*</td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
-**Gutschrift*
+
 
 Die Literatur zeigt, dass private Fahrzeugkäufer meist nicht die langfristigen Kosten der Fahrzeughaltung und -nutzung berücksichtigen, es findet also eine gedankliche Abzinsung statt [(Mock 2010)](#Mock_2010). Es wird angenommen, dass die privaten Pkw-Käufer für ihre Kaufentscheidung nur die ersten drei Jahre zu Grunde legen und für zukünftige Zahlungen eine Diskontrate von 5 % anwenden.
 
