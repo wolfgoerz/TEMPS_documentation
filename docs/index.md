@@ -377,8 +377,21 @@ Schade, Wolfgang; Perez, E.; Berthold D.; Wagner, U.; Krail, M.; Waßmuth, V. (2
 <a id="Schade_2023"></a>
 Schade W., Anstett P., Berthold D., Emmerich C., Emmerich J., Haug I., Khanna A., Krail M., Oehme R., Streif M., Walther C., Waßmuth V. (2023): Gestaltung des MKS-Referenzszenarios für die Periode 2022 bis 2050 (REF-2050). Arbeitspapier im Auftrag des Bundesministeriums für Digitales und Verkehr (BMDV), Karlsruhe.
 
-$M:$ Jahresfahrleistung
+$$
+C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} * BP)^{d} 
+$$
 
-$C_{rp}:$ Anschaffungspreis
+und so: 
 
-$BP:$ Kaufprämie
+displayMath: 
+\\[C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} * BP)^{d}\\]
+
+\\[\begin{align*}
+  C_{rv}: \text{Kosten Restwert} \\
+  a, b, c, d: \text{Konstanten der Regressionskurve} \\
+  \tau: \text{Haltedauer} \\
+  M: \text{Jahresfahrleistung} \\
+  C_{rp}: \text{Anschaffungspreis} \\
+  BP: \text{Kaufprämie} \\
+\end{align*}\\]
+
