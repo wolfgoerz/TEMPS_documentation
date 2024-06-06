@@ -384,7 +384,7 @@ $$
 
 mit 
 
-```math
+$$
 \begin{array}{rl}
   C_{rv} & : \text{Kosten Restwert} \\
   a, b, c, d & : \text{Konstanten der Regressionskurve} \\
@@ -393,3 +393,4 @@ mit
   C_{rp} & : \text{Anschaffungspreis} \\
   BP & : \text{Kaufprämie}
 \end{array}
+$$
