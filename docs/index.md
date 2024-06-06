@@ -393,9 +393,75 @@ $$
   BP: \text{Kaufprämie} \\
 $$
 
+
 ```math
-\begin{align*}
-    a &= b + c \\
-    d &= e + f \\
-    g &= h + i
-\end{align*}
+\begin{array}{rl}
+  C_{rv} & : \text{Kosten Restwert} \\
+  a, b, c, d & : \text{Konstanten der Regressionskurve} \\
+  \tau & : \text{Haltedauer} \\
+  M & : \text{Jahresfahrleistung} \\
+  C_{rp} & : \text{Anschaffungspreis} \\
+  BP & : \text{Kaufprämie}
+\end{array}
+
+dgwgwweg reg
+ergg
+gg
+
+
+```math
+\begin{array}{l}
+  \begin{aligned}
+    & C_{rv}: \text{Kosten Restwert} \\
+    & a, b, c, d: \text{Konstanten der Regressionskurve} \\
+    & \tau: \text{Haltedauer} \\
+    & M: \text{Jahresfahrleistung} \\
+    & C_{rp}: \text{Anschaffungspreis} \\
+    & BP: \text{Kaufprämie}
+  \end{aligned}
+\end{array}
+
+erher
+eh
+
+
+```markdown
+```math
+\begin{array}{l}
+  C_{rv}: \text{Kosten Restwert} \\
+  a, b, c, d: \text{Konstanten der Regressionskurve} \\
+  \tau: \text{Haltedauer} \\
+  M: \text{Jahresfahrleistung} \\
+  C_{rp}: \text{Anschaffungspreis} \\
+  BP: \text{Kaufprämie}
+\end{array}
+
+sfhe
+
+ergerg
+
+```math
+\begin{array}{l}
+  C_{rv}: \text{Kosten Restwert} \\
+  a, b, c, d: \text{Konstanten der Regressionskurve} \\
+  \tau: \text{Haltedauer} \\
+  M: \text{Jahresfahrleistung} \\
+  C_{rp}: \text{Anschaffungspreis} \\
+  BP: \text{Kaufprämie}
+\end{array}
+
+wrz
+
+sgwr
+
+```math
+\begin{array}{l}
+  \begin{aligned}
+    & C_{rv}: \text{Kosten Restwert} \\
+    & a, b, c, d: \text{Konstanten der Regressionskurve} \\
+    & \tau: \text{Haltedauer} \\
+    & M: \text{Jahresfahrleistung} \\
+    & C_{rp}: \text{Anschaffungspreis} \\
+    & BP: \text{Kaufprämie}
+  \end{aligned}
+\end{array}
