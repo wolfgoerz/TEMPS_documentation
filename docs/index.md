@@ -394,3 +394,14 @@ $$
   BP & : \text{Kaufprämie}
 \end{array}
 $$
+
+$$
+\begin{array}{rl}
+  C_{rv} & : \text{Kosten Restwert} \\
+  a, b, c, d & : \text{Konstanten der Regressionskurve} \\
+  \tau & : \text{Haltedauer} \\
+  M & : \text{Jahresfahrleistung} \\
+  C_{rp} & : \text{Anschaffungspreis} \\
+  BP & : \text{Kaufprämie}
+\end{array}
+$$
