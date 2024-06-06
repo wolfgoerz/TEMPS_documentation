@@ -376,3 +376,15 @@ Schade, Wolfgang; Perez, E.; Berthold D.; Wagner, U.; Krail, M.; Waßmuth, V. (2
 
 <a id="Schade_2023"></a>
 Schade W., Anstett P., Berthold D., Emmerich C., Emmerich J., Haug I., Khanna A., Krail M., Oehme R., Streif M., Walther C., Waßmuth V. (2023): Gestaltung des MKS-Referenzszenarios für die Periode 2022 bis 2050 (REF-2050). Arbeitspapier im Auftrag des Bundesministeriums für Digitales und Verkehr (BMDV), Karlsruhe.
+
+$C_{rv}:$ Kosten Restwert
+
+$a, b, c, d:$ Konstanten der Regressionskurve
+
+$\tau:$ Haltedauer
+
+$M:$ Jahresfahrleistung
+
+$C_{rp}:$ Anschaffungspreis
+
+$BP:$ Kaufprämie
