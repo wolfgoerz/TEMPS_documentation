@@ -389,3 +389,20 @@ $$
   BP: \text{Kaufprämie} \\
 \end{align*}
 $$
+
+$$
+C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} * BP)^{d} 
+$$
+
+mit 
+
+$$
+\begin{align*}
+  C_{rv}: \text{Kosten Restwert} \\
+  a, b, c, d: \text{Konstanten der Regressionskurve} \\
+  \tau: \text{Haltedauer} \\
+  M: \text{Jahresfahrleistung} \\
+  C_{rp}: \text{Anschaffungspreis} \\
+  BP: \text{Kaufprämie} \\
+\end{align*}
+$$
