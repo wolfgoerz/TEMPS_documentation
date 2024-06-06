@@ -405,3 +405,15 @@ $$
   BP & : \text{Kaufprämie}
 \end{array}
 $$
+
+$$
+\begin{array}{rl}
+  C_{rv} & : \text{Kosten Restwert} \\
+\end{array}
+$$
+
+$$
+\begin{array}{rl}
+  BP & : \text{Kaufprämie}
+\end{array}
+$$
