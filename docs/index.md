@@ -1,38 +1,6 @@
 # TEMPS Dokumentation
 (Stand Mai 2024)
 
-test $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$ und weiter (dies funktioniert noch nicht in einer Zeile auf der Website, in der github Vorschau aber schon)
-
-$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
-
-$$
-\begin{align}
-  \text{Wo:} \
-  \text{test test}
-\end{align}
-$$
-
-$$
-\begin{align}
-  \text{Wo:} \
-  \text{test test}
-\end{align}
-$$
-
-Test für $inline \ mathe \ x = 4$ mal schauen ob das klappt
-
-$$
-E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
-$$
-
-(Blöcke funktionieren) 
-
-$$
-p(v_{i}= 1|h) = \sigma\left(\sum_j w_{ij}h_j + b_i\right)
-$$
-
-$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
-
 ## 1 Einleitung
 
 Das am Öko-Institut entwickelte Modell TEMPS (Transport Emissions and Policy Scenarios) ermöglicht die Quantifizierung der Entwicklung von Endenergiebedarf und Treibhausgasemissionen des Verkehrs in Deutschland. Die Szenarien berücksichtigen unterschiedliche politische und techno-ökonomische Rahmenbedingungen und bestimmen u.a. die Entwicklung der Neuzulassungsstruktur, des Fahrzeugbestandes von Straßenfahrzeugen sowie Verlagerungen der Verkehrsnachfrage. TEMPS ermöglicht zudem die Bewertung von spezifischen Politikinstrumenten im Rahmen der Politikberatung.
@@ -239,6 +207,20 @@ $$
   BP: \text{Kaufprämie} \\
 \end{align*}
 $$
+
+
+$C_{rv}:$ Kosten Restwert
+
+$a, b, c, d:$ Konstanten der Regressionskurve
+
+$\tau:$ Haltedauer
+
+$M:$ Jahresfahrleistung
+
+$C_{rp}:$ Anschaffungspreis
+
+$BP:$ Kaufprämie
+
 
 Der Restwert wird anschließend über die Haltedauer diskontiert:
 
