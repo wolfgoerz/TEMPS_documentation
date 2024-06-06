@@ -263,11 +263,11 @@ $$
 
 mit
 
-\\(em:\\) Emissionen in \\(g CO_{2}\\) pro km
+\\(em:\\) Emissionen in g CO<sub>2</sub> pro km
 
 \\(\varepsilon_{M}:\\) Bemessungsgrenze Malus
 
-\\(c_{M}:\\) Höhe des Malus in Euro pro \\(g CO_{2}\\)
+\\(c_{M}:\\) Höhe des Malus in Euro pro g CO<sub>2</sub>
 
 \\(C_{rp}:\\) Fahrzeugpreis
 
@@ -325,11 +325,11 @@ mit
 
 \\(c_{cap}:\\) Kosten pro Hubraumvolumen
 
-\\(em: gCO_{2}\\) pro km
+\\(em:\\) g CO<sub>2</sub> pro km
 
-\\(\varepsilon_{vt}:\\) Bemessungsgrenze der \\(CO_{2}\\) Komponente der Kfz-Steuer
+\\(\varepsilon_{vt}:\\) Bemessungsgrenze der CO<sub>2</sub> Komponente der Kfz-Steuer
 
-\\(c_{vt}:\\) Höhe der \\(CO_{2}\\) Komponente der Kfz-Steuer in Euro pro \\(g CO_{2}\\)
+\\(c_{vt}:\\) Höhe der CO<sub>2</sub> Komponente der Kfz-Steuer in Euro pro g CO<sub>2</sub>
 
 
 #### 4.1.10 Maut
