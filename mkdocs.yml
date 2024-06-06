@@ -2,7 +2,7 @@ site_name: TEMPS Dokumentation
 site_url: https://oekoinstitut.github.io/TEMPS_documentation/
 theme:
   name: material
-  logo: oeko_sublogo_72dpi_RGB.png
+  logo: ÖI_Sublogo_Office_druckfähig_png.png
   favicon: favicon.ico
   features:
     - navigation.tabs
