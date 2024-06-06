@@ -66,26 +66,26 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
     </tr>
     <tr>
       <td>Diesel</td>
-      <td>Batterieelektrische Oberleitungs-Lkw (O-BEV)</td>
+      <td>Batterieelektrische Oberleitungs-Lkw</td>
     </tr>
     <tr>
-      <td>Plug-In Hybrid (PHEV)</td>
-      <td>Batterieelektrischer Antrieb (BEV)</td>
+      <td>Plug-In Hybrid</td>
+      <td>Batterieelektrischer Antrieb</td>
     </tr>
     <tr>
-      <td>Batterieelektrischer Antrieb (BEV)</td>
-      <td>Erdgasantrieb (LNG)</td>
+      <td>Batterieelektrischer Antrieb</td>
+      <td>Erdgasantrieb</td>
     </tr>
     <tr>
-      <td>Flüssiggasantrieb (LPG)</td>
-      <td>Brennstoffzellenantrieb (FCEV)</td>
+      <td>Flüssiggasantrieb</td>
+      <td>Brennstoffzellenantrieb</td>
     </tr>
     <tr>
-      <td>Erdgasantrieb (CNG)</td>
+      <td>Erdgasantrieb</td>
       <td></td>
     </tr>
     <tr>
-      <td>Brennstoffzellenantrieb (FCEV)</td>
+      <td>Brennstoffzellenantrieb</td>
       <td></td>
     </tr>
   </tbody>
