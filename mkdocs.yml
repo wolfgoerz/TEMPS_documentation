@@ -3,6 +3,7 @@ site_url: https://oekoinstitut.github.io/TEMPS_documentation/
 theme:
   name: material
   logo: oeko_sublogo_72dpi_RGB.png
+  favicon: favicon.ico
   features:
     - navigation.tabs
     - navigation.sections
