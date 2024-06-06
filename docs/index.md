@@ -386,12 +386,10 @@ und so:
 displayMath: 
 \\[C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} * BP)^{d}\\]
 
-\\[\begin{align*}
-  C_{rv}: \text{Kosten Restwert} \\
+\\[C_{rv}: \text{Kosten Restwert} \\
   a, b, c, d: \text{Konstanten der Regressionskurve} \\
   \tau: \text{Haltedauer} \\
   M: \text{Jahresfahrleistung} \\
   C_{rp}: \text{Anschaffungspreis} \\
-  BP: \text{Kaufprämie} \\
-\end{align*}\\]
+  BP: \text{Kaufprämie}\\]
 
