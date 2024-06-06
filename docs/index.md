@@ -392,3 +392,10 @@ $$
   C_{rp}: \text{Anschaffungspreis} \\
   BP: \text{Kaufprämie} \\
 $$
+
+```math
+\begin{align*}
+    a &= b + c \\
+    d &= e + f \\
+    g &= h + i
+\end{align*}
