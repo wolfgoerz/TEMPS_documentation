@@ -381,7 +381,9 @@ $$C_{rv}:$$ Kosten Restwert
 
 \(a + b = x\) wird so geschrieben
 
-$a, b, c, d:$ Konstanten der Regressionskurve
+letzter Test: \\(ax+b = c\\) schauen wir mal
+
+und so $a, b, c, d:$ Konstanten der Regressionskurve
 
 $\tau:$ Haltedauer
 
