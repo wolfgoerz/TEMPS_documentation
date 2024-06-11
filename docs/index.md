@@ -213,7 +213,7 @@ mit
 
 \\(\tau:\\) Haltedauer
 
-
+<p>  </p>
 
 
 #### 4.1.3 Absetzung für Abnutzung (AFA) und Restbuchwert
