@@ -208,8 +208,8 @@ C_{RV} =  - \frac{C_{rv}}{(1+c_{i})^\tau}
 $$
 
 mit
-
-\\(c_{i}:\\) Diskonierungsrate
+  
+<p>\\(c_{i}:\\) Diskonierungsrate</p>
 
 \\(\tau:\\) Haltedauer
 
