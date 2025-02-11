@@ -1,0 +1,976 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://oekoinstitut.github.io/TEMPS_documentation/">
+      
+      
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
+    
+    
+      
+        <title>TEMPS Dokumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.d7758b05.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#temps-dokumentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="TEMPS Dokumentation" class="md-header__button md-logo" aria-label="TEMPS Dokumentation" data-md-component="logo">
+      
+  <img src="ÖI_Sublogo_Office_druckfähig_png.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TEMPS Dokumentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TEMPS Dokumentation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  TEMPS Dokumentation
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="TEMPS Dokumentation" class="md-nav__button md-logo" aria-label="TEMPS Dokumentation" data-md-component="logo">
+      
+  <img src="ÖI_Sublogo_Office_druckfähig_png.png" alt="logo">
+
+    </a>
+    TEMPS Dokumentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    TEMPS Dokumentation
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    TEMPS Dokumentation
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-einleitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 Einleitung
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-methodischer-ansatz" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 Methodischer Ansatz
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-nutzungsprofile-und-fahrzeugkonfigurationen" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 Nutzungsprofile und Fahrzeugkonfigurationen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-neuzulassungsmodell" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 Neuzulassungsmodell
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4 Neuzulassungsmodell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-tco-total-costs-of-ownership" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 TCO (Total Costs of Ownership)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 TCO (Total Costs of Ownership)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-anschaffungspreis" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1 Anschaffungspreis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-restwerte" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2 Restwerte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-absetzung-fur-abnutzung-afa-und-restbuchwert" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3 Absetzung für Abnutzung (AFA) und Restbuchwert
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414-kaufpramie" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.4 Kaufprämie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#415-malus" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.5 Malus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#416-kraftstoffkosten" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.6 Kraftstoffkosten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#417-thg-quote-und-thg-pramie" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.7 THG-Quote und THG-Prämie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#418-variable-kosten" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.8 Variable Kosten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#419-jahrliche-fix-kosten" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.9 Jährliche Fix-Kosten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4110-maut" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.10 Maut
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4111-dienstwagensteuer" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.11 Dienstwagensteuer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-logit-modell-fur-pkw" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Logit-Modell für Pkw
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-neuzulassungsstruktur-fur-nutzfahrzeuge" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Neuzulassungsstruktur für Nutzfahrzeuge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-energieinfrastruktur" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 Energieinfrastruktur
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-bestandsmodellierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 Bestandsmodellierung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-verkehrsnachfrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6 Verkehrsnachfrage
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.6 Verkehrsnachfrage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#461-verkehrsverlagerung-im-personenverkehr" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6.1 Verkehrsverlagerung im Personenverkehr
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#462-verkehrsverlagerungen-im-guterverkehr" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6.2 Verkehrsverlagerungen im Güterverkehr
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-endenergieverbrauch-und-treibhausgasemissionen" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 Endenergieverbrauch und Treibhausgasemissionen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-literaturverzeichnis" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 Literaturverzeichnis
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="temps-dokumentation">TEMPS Dokumentation</h1>
+<p><em>30.05.2024</em></p>
+<h2 id="1-einleitung">1 Einleitung</h2>
+<p>Das am Öko-Institut entwickelte Modell TEMPS (Transport Emissions and Policy Scenarios) ermöglicht die Quantifizierung der Entwicklung von Endenergiebedarf und Treibhausgasemissionen des Verkehrs in Deutschland. Die Szenarien berücksichtigen unterschiedliche politische und techno-ökonomische Rahmenbedingungen und bestimmen u.a. die Entwicklung der Neuzulassungsstruktur, des Fahrzeugbestandes von Straßenfahrzeugen sowie Verlagerungen der Verkehrsnachfrage. TEMPS ermöglicht zudem die Bewertung von spezifischen Politikinstrumenten im Rahmen der Politikberatung.</p>
+<p>Im Zentrum des Modells steht die Markthochlaufmodellierung für Straßenfahrzeuge (Pkw, LNF und Lkw) anhand eines umfangreichen Neuzulassungs- und Bestandsmodells. Dieses simuliert die Kaufentscheidung für repräsentative Nutzungsprofile bottom-up unter Berücksichtigung verschiedener technischer, ökonomischer und regulatorischer Bedingungen. Alle weiteren Verkehrsträger (Schienenverkehr, Schifffahrt, Luftfahrt, Busse, Motorräder, Fahrräder) werden derzeit auf Basis von Trends der Antriebs- und Effizienzentwicklung modelliert.</p>
+<p>Regulatorische Rahmenbedingungen und Entwicklungen des Marktes auf nationaler sowie europäischer Ebene werden in allen Szenarien berücksichtigt. Diese drücken sich beispielsweise durch Steuern, Mautgebühren oder Grenzwerte aus. Ebenso beeinflussen globale Trends die Wirtschaftlichkeit der Fahrzeuge, wie zum Beispiel die Entwicklung von Batterie- und Kraftstoffpreisen. Für die Nutzfahrzeuge spielen insbesondere die CO<sub>2</sub>-Flottenzielwerte, die Lkw-Maut sowie der Ausbau der Lade- und Tankstelleninfrastruktur für alternative Fahrzeugantriebe eine entscheidende Rolle.</p>
+<hr />
+<h2 id="2-methodischer-ansatz">2 Methodischer Ansatz</h2>
+<p>TEMPS ist ein Simulationsmodell, das bottom-up- und top-down-Ansätze miteinander kombiniert. Zunächst wird die Neuzulassungs- und Bestandsstruktur von Pkw und Lkw für rund 2400 Nutzungsprofile bottom-up berechnet, basierend auf einem TCO-Modell (Total Costs of Ownership). Bei der Antriebswahl für Pkw werden darüber hinaus nicht-ökonomische Verhaltensweisen über ein kalibriertes Logit-Modell berücksichtigt. Anschließend werden ermittelte Kennzahlen top-down anhand der Verkehrsnachfrage- und Energiebilanzdaten sowie weiteren Ist-Daten kalibriert. Die Kalibrierung und das kontinuierliche Nachführen der Ist-Daten stellt eine Kurzfristvalidierung der Modellierung sicher. Das Modell betrachtet die Verkehrsemissionen in Deutschland nach Sektordefinition des Klimaschutzgesetzes. Berücksichtigt wird die Verkehrsleistung nach dem Inlandsprinzip, der Fahrzeugbestand nach dem Inländerprinzip. Internationale Verkehre, welche von- oder nach Deutschland gehen, werden ebenfalls modelliert (Personenflugverkehr, Güterflugverkehr, Güterseeverkehr).</p>
+<p><img alt="TEMPS_Schema.png" src="TEMPS_Schema.png" /></p>
+<figure markdown="span">
+  <figcaption>Schematische Darstellung des Modells TEMPS</figcaption>
+</figure>
+
+<p>Die Modellrechnung erfolgt jahresscharf. Es können Prognosen bis zum Jahr 2050 abgebildet werden. Bei Bedarf kann der Simulationszeitraum verlängert werden. Die Ergebnisse werden auf nationaler Ebene ausgegeben. Modellintern werden teilweise räumlich differenzierte Daten verarbeitet, beispielweise wird der Personenverkehr unterteilt in die Kategorien urban, suburban und ländlich.</p>
+<p>TEMPS besitzt Schnittstellen zu den Modellen PowerFlex und der Energiemodellierung ENUSEM des Öko-Instituts, wodurch Wechselwirkungen mit dem Strommarkt abgebildet und Flexibilitätspotenziale der E-Mobilität berücksichtigt werden können. Darüber hinaus besteht eine Schnittstelle zu dem Verteilungswirkungsmodell DhoT (Dynamic Household Transport (microsimulation) Model) des Öko-Instituts sowie einer ökonomischen Folgenabschätzung.</p>
+<hr />
+<h2 id="3-nutzungsprofile-und-fahrzeugkonfigurationen">3 Nutzungsprofile und Fahrzeugkonfigurationen</h2>
+<p>Die Modellierung der Neuzulassungen von Pkw und Lkw basiert auf einem bottom-up-Ansatz, in dem die Kaufentscheidung von insgesamt rund 2400 Nutzungsprofilen abgebildet wird. Die Gesamtheit der Nutzungsprofile bildet das Fahrverhalten der Bevölkerung im Motorisiertem Individualverkehr (MIV) bzw. der Logistikunternehmen im Güterverkehr repräsentativ ab.</p>
+<p>Jedes Nutzungsprofil wird durch fünf Merkmale charakterisiert:</p>
+<ul>
+  <li>Größenklasse des Fahrzeugs</li>
+  <li>Art des Halters (privat, gewerblich, dienstwagennutzend, carsharing)</li>
+  <li>Regionstyp des Halters (innenstadt, städtisch, ländlich)</li>
+  <li>Jahresfahrleistung</li>
+  <li>Haltedauer</li>
+</ul>
+
+<p>Die Nutzungsprofile im MIV basieren auf dem „Mobilitätspanel“ (MOP) <a href="#Ecke_2021">(Ecke et al. 2021)</a> und der Studie „Mobilität in Deutschland 2017“ <a href="#Nobis_2018">(Nobis und Kuhnimhof 2018)</a>. Für Lkw und LNF beruhen die Profile auf der Studie „Kraftfahrzeugverkehr in Deutschland 2010“ <a href="#BMVI_2010">(Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) 2010)</a> und der Fahrleistungserhebung 2014 <a href="#Bäumer_2017">(Bäumer et al. 2017; Bundesanstalt für Straßenwesen (BASt) 2015)</a>.</p>
+<p>Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge in den jeweiligen Größenklassen mit verschiedenen Antrieben und Effizienzen zur Verfügung. In <a href="#T1">Tabelle 1</a> sind die möglichen Antriebe für Pkw und Lkw dargestellt, die sich auf verschiedene Größenklassen verteilen <a href="#T2">(Tabelle 2)</a>.  </p>
+<p><a id="T1"></a></p>
+<table>
+  <caption align="left">Tabelle 1: Mögliche Antriebsoptionen in TEMPS</caption>
+  <thead>
+    <tr>
+      <th>Pkw</th>
+      <th>Lkw</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Benzin</td>
+      <td>Diesel</td>
+    </tr>
+    <tr>
+      <td>Diesel</td>
+      <td>Batterieelektrische Oberleitungs-Lkw</td>
+    </tr>
+    <tr>
+      <td>Plug-In Hybrid</td>
+      <td>Batterieelektrischer Antrieb</td>
+    </tr>
+    <tr>
+      <td>Batterieelektrischer Antrieb</td>
+      <td>Erdgasantrieb</td>
+    </tr>
+    <tr>
+      <td>Flüssiggasantrieb</td>
+      <td>Brennstoffzellenantrieb</td>
+    </tr>
+    <tr>
+      <td>Erdgasantrieb</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brennstoffzellenantrieb</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a id="T2"></a></p>
+<table>
+  <caption align="left">Tabelle 2: Größenklassen für Pkw und Lkw</caption>
+  <thead>
+    <tr>
+      <th>Pkw</th>
+      <th>Lkw</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Klein</td>
+      <td>Lkw von 3,5 bis 7,49 t</td>
+    </tr>
+    <tr>
+      <td>Mittel</td>
+      <td>Lkw von 7,5 bis 11,99 t</td>
+    </tr>
+    <tr>
+      <td>Groß</td>
+      <td>Lkw ab 12 t</td>
+    </tr>
+    <tr>
+      <td>Leichte Nutzfahrzeuge (LNF)</td>
+      <td>Last- und Sattelzüge</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Für jedes Fahrzeugmodell (definiert über Größenklasse und Antrieb) stehen jährlich verschiedene Kombinationen aus Antriebseffizienz und entsprechendem Anschaffungspreis zur Auswahl. Die Herleitung dieser Kombinationen basiert auf Kostenkurven.  Zudem werden laufend aktualisierte Prognosen für Batteriekosten berücksichtigt.</p>
+<hr />
+<h2 id="4-neuzulassungsmodell">4 Neuzulassungsmodell</h2>
+<h3 id="41-tco-total-costs-of-ownership">4.1 TCO (Total Costs of Ownership)</h3>
+<p>Die Bestimmung der Kaufentscheidung eines Nutzungsprofils erfolgt in mehreren Schritten. Anhand einer TCO-Rechnung (Total Cost of Ownership) werden für jedes Nutzungsprofil die Vollkosten aller verfügbaren Fahrzeugmodelle berechnet. Die berücksichtigten Kostenkomponenten sind in <a href="#T3">Tabelle 3</a> gezeigt und werden im Folgenden näher beschrieben. </p>
+<p><a id="T3"></a></p>
+<table>
+  <caption align="left">Tabelle 3: Kostenbestandteile der TCO</caption>
+  <thead>
+    <tr>
+      <th>Investitionskosten</th>
+      <th>Laufende Kosten</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Anschaffungspreis</td>
+      <td>Kraftstoffkosten (inkl. Energiesteuern)</td>
+    </tr>
+    <tr>
+      <td>Kaufförderung*</td>
+      <td>Fixkosten (Kfz-Steuer und Versicherung)</td>
+    </tr>
+    <tr>
+      <td>Steuerersparnis* durch Abschreibung<br>für gewerbliche Nutzungsprofile</td>
+      <td>Maut (optional)</td>
+    </tr>
+    <tr>
+      <td>Restwert*</td>
+      <td>THG-Prämie*</td>
+    </tr>
+    <tr>
+      <td>Malus (optional)</td>
+      <td>Sonstige variable Kosten<br>(Wartung, Reparatur etc.)</td>
+    </tr>
+    <tr>
+      <td><i>*Gutschrift</i></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Die Literatur zeigt, dass private Fahrzeugkäufer meist nicht die langfristigen Kosten der Fahrzeughaltung und -nutzung berücksichtigen, es findet also eine gedankliche Abzinsung statt <a href="#Mock_2010">(Mock 2010)</a>. Es wird angenommen, dass die privaten Pkw-Käufer für ihre Kaufentscheidung nur die ersten drei Jahre zu Grunde legen und für zukünftige Zahlungen eine Diskontrate von 5 % anwenden.</p>
+<p>Bei Lkw hingegen spielt die gesamte Haltedauer eine entscheidende Rolle für die Wirtschaftlichkeit eines Fahrzeugs. Daher wird diese als Grundlage der Kaufentscheidung herangezogen. Aufgrund ihrer hohen Fahrleistung liegen die Haltedauern bei Lkw deutlich niedriger als bei Pkw. Eine standardisierten Online-Befragung von Transportunternehmen im Frühjahr 2021 <a href="#Göckeler_2022">(Göckeler et al. 2022)</a> ergab Haltedauern zwischen 3 und 9 Jahren. Zusätzlich wird bei allen gewerblichen Haltern die Abschreibung berücksichtigt, welche mindernd auf die Unternehmenssteuern wirkt. Dabei werden ein Unternehmenssteuersatz von 30 % und eine Abschreibungsdauer von 9 Jahren zu Grunde gelegt.</p>
+<h4 id="411-anschaffungspreis">4.1.1 Anschaffungspreis</h4>
+<p>Der Anschaffungspreis ergibt sich direkt aus den Kostenkurven der Fahrzeuge und berücksichtigt aktuelle Batteriepreisprognosen. Er fällt zum Kaufzeitpunkt an und geht daher nicht diskontiert in die TCO ein.</p>
+<h4 id="412-restwerte">4.1.2 Restwerte</h4>
+<p>Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Gutschrift in die TCO ein. Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet <a href="#Dexheimer_2003">(Dexheimer 2003)</a>.
+Die Gleichung lautet:</p>
+<p>$$
+C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} * BP)^{d} 
+$$</p>
+<p>mit</p>
+<p>\(C_{rv}:\) Kosten Restwert</p>
+<p>\(a, b, c, d:\) Konstanten der Regressionskurve</p>
+<p>\(\tau:\) Haltedauer</p>
+<p>\(M:\) Jahresfahrleistung</p>
+<p>\(C_{rp}:\) Anschaffungspreis</p>
+<p>\(BP:\) Kaufprämie</p>
+<p>Der Restwert wird anschließend über die Haltedauer diskontiert:</p>
+<p>$$
+C_{RV} =  - \frac{C_{rv}}{(1+c_{i})^\tau}
+$$</p>
+<p>mit</p>
+<p>\\(c_{i}:\\) Diskonierungsrate</p>
+
+<p>\(\tau:\) Haltedauer</p>
+<p>  </p>
+
+<h4 id="413-absetzung-fur-abnutzung-afa-und-restbuchwert">4.1.3 Absetzung für Abnutzung (AFA) und Restbuchwert</h4>
+<p>Die Sonderabschreibung (Sonder-AfA) erlaubt es 50 % der Investition zusätzlich zur normalen jährlichen Abschreibung bereits im Jahr der Anschaffung steuerlich abzusetzen. Durch die Sonder‐AfA bietet sich der/dem Steuerpflichtigen die Möglichkeit, im ersten Jahr höhere Verluste steuerlich geltend zu machen und somit seinen zu versteuernden Gewinn zu reduzieren. Ab dem zweiten Jahr kehrt sich dieser Effekt um, da nunmehr ein geringeres Abschreibungsvolumen zur Verfügung steht. Der monetäre Vorteil einer Sonder‐AfA für die/den Fahrzeughalter*in beruht somit auf dem Zins‐ und Liquiditätsvorteil, der sich durch eine vorgezogene Abschreibung ergibt.
+Die AFA berechnet sich aus:</p>
+<p>$$
+C_{AFA} = \sum\limits_{j=1}^{\tau}{\frac{C_{rp} * SA(j) * bt}{(1+c_{i})^j}}
+$$</p>
+<p>mit</p>
+<p>\(\tau:\) Haltedauer</p>
+<p>\(C_{rp}:\) Fahrzeugkosten</p>
+<p>\(SA(j):\) Anteil der Abschreibung im Haltejahr</p>
+<p>\(bt:\) Unternehmenssteuersatz</p>
+<p>\(c_{i}:\) Diskontierungsrate</p>
+<p>Bei einem Wiederverkauf des Fahrzeugs vor dem Zeitpunkt der vollständigen Abschreibung muss die Differenz zwischen Verkaufserlös und Restbuchwert versteuert werden. Da bei einer Sonder‐AfA der Restbuchwert schneller sinkt, muss beim Wiederverkauf ein höherer Erlös versteuert werden. Der Restbuchwert berechnet sich aus:</p>
+<p>$$
+C_{RT} = C_{rp} * \frac{(1-\sum\limits_{j=1}^{\tau}{SA(j)})}{(1+c_{i})^j}
+$$</p>
+<p>mit</p>
+<p>\(C_{rp}:\) Fahrzeugkosten</p>
+<p>\(SA(j):\) Anteil der Abschreibung im Haltejahr</p>
+<p>\(c_{i}:\) Diskontierungsrate</p>
+<p>\(\tau:\) Haltedauer</p>
+<h4 id="414-kaufpramie">4.1.4 Kaufprämie</h4>
+<p>Die Kaufprämie geht direkt als Gutschrift im Anschaffungsjahr in die TCO ein. Es wird davon ausgegangen, dass der Herstelleranteil der Kaufprämie durch eine Anhebung der Kaufpreise durch die Hersteller gegenfinanziert wird und damit keine Vergünstigung für die/den Käufer*in bewirkt. </p>
+<h4 id="415-malus">4.1.5 Malus</h4>
+<p>Der Malus verändert die Kfz-Steuer für Pkw, sodass im ersten Jahr nach der Neuzulassung eine höhere Steuer in Abhängigkeit der CO<sub>2</sub>-Emissionen pro km eines Fahrzeuges anfällt. Die Höhe des Malus wird immer ausgehend von einer Bemessungsgrenze ermittelt. Unterhalb der Bemessungsgrenze wird kein Malus fällig. Für jedes Gramm CO<sub>2</sub> oberhalb der Bemessungsgrenze wird eine einmalige Zahlung fällig.
+Da zu erwarten ist, dass Zusatzkosten ab einer gewissen Höhe keine relevante Lenkungswirkung entfalten, kann die absolute Höhe der zusätzlichen CO<sub>2</sub>-Komponente der Kfz-Steuer auf 50% des Listenpreises des Fahrzeugs gedeckelt werden. Eine solche Deckelung besteht u.a. auch in Frankreich. 
+Der Malus berechnet sich aus:</p>
+<p>$$
+C_{M} = min ((max(0, em - \varepsilon_{M})) * c_{M}),(C_{rp} * \theta_{M}))
+$$</p>
+<p>mit</p>
+<p>\(em:\) Emissionen in g CO<sub>2</sub> pro km</p>
+<p>\(\varepsilon_{M}:\) Bemessungsgrenze Malus</p>
+<p>\(c_{M}:\) Höhe des Malus in Euro pro g CO<sub>2</sub></p>
+<p>\(C_{rp}:\) Fahrzeugpreis</p>
+<p>\(\theta_{M}:\) maximaler Anteil des Malus am Fahrzeugpreis</p>
+<h4 id="416-kraftstoffkosten">4.1.6 Kraftstoffkosten</h4>
+<p>Die Kraftstoffkosten berechnen sich aus den Kraftstoffpreisen, dem Kraftstoffmix je Antrieb, dem Verbrauch pro km und der Jahresfahrleistung. Private Haltende zahlen zudem die Mehrwertsteuer auf den Kraftstoffpreis. </p>
+<p>$$
+C_{f} = (\sum\limits_{i=1}^{ft}{con(i) * f_{share}(i) * c_{f}(i) * (1+vat)}) * M
+$$</p>
+<p>$$
+C_{F} = \sum\limits_{j=1}^{\tau}{\frac{C_{f}}{(1+c_{i})^j}}
+$$</p>
+<p>mit</p>
+<p>\(ft:\) Kraftstoffe</p>
+<p>\(con(ft):\) Verbrauch pro km (real) des Kraftstoffs</p>
+<p>\(f_{share}:\) Anteil des Kraftstoffs am Gesamtverbrauch</p>
+<p>\(M:\) Mileage</p>
+<p>\(c_{f}(ft):\) Kraftstoffpreis pro km</p>
+<p>\(vat:\) Mehrwegsteuer (je nach Fahrzeughalter)</p>
+<p>\(c_{i}:\) Diskontierungsrate</p>
+<p>\(\tau:\) Haltedauer</p>
+<h4 id="417-thg-quote-und-thg-pramie">4.1.7 THG-Quote und THG-Prämie</h4>
+<p>In der THG-Quote sind Mindestquoten (und teilweise Maximalquoten) für verschiedene erneuerbare Kraftstoffe definiert. Die Erfüllung der THG-Quote führt modellseitig zu steigenden Kosten für konventionelle Kraftstoffe und damit zu einer steigenden TCO für konventionelle Fahrzeuge, da erneuerbare Kraftstoffe höhere Produktionskosten aufweisen. Gleichzeitig sinkt die TCO für batterieelektrische Fahrzeuge, da die Haltenden ihre Quotenberechtigung an die Inverkehrbringenden der konventionellen Kraftstoffe verkaufen können (THG-Prämie).</p>
+<h4 id="418-variable-kosten">4.1.8 Variable Kosten</h4>
+<p>Die jährlichen variablen Kosten setzen sich zusammen aus Schmierstoff-, Pflege-, Reifen-, Reparatur- und Inspektionskosten. Für die variablen Kosten werden durchschnittliche Werte hinterlegt.</p>
+<h4 id="419-jahrliche-fix-kosten">4.1.9 Jährliche Fix-Kosten</h4>
+<p>Die jährlichen Fixkosten setzen sich aus der Kfz-Steuer und den Versicherungskosten zusammen. Während für die Versicherungskosten generische Werte hinterlegt sind, wird die Kfz-Steuer modellseitig individuell für jedes Fahrzeug entsprechend der zum Zeitpunkt geltenden Steuersätze berechnet.
+Die derzeit gültige Kfz-Steuer setzt sich aus einer vom Hubraum abhängigen Komponente und einer CO<sub>2</sub>-abhängigen Komponente zusammen. Bei der CO<sub>2</sub>-abhängigen Komponente werden je Gramm CO<sub>2</sub>-Ausstoß oberhalb eines Freibetrages in Gramm CO<sub>2</sub> pro Kilometer unterschiedliche Beträge fällig. Für batterieelektrische Fahrzeuge ist eine Befreiung von der Kfz-Steuer für 10 Jahre hinterlegt, anschließend werden sie gewichtsabhängig besteuert. 
+Die Kfz-Steuer berechnet sich aus:</p>
+<p>$$
+C_{vt} = (cap * c_{cap}) + (max(0, (em - \varepsilon_{vt}) * c_{vt}))
+$$</p>
+<p>mit</p>
+<p>\(cap:\) Hubraumvolumen</p>
+<p>\(c_{cap}:\) Kosten pro Hubraumvolumen</p>
+<p>\(em:\) g CO<sub>2</sub> pro km</p>
+<p>\(\varepsilon_{vt}:\) Bemessungsgrenze der CO<sub>2</sub> Komponente der Kfz-Steuer</p>
+<p>\(c_{vt}:\) Höhe der CO<sub>2</sub> Komponente der Kfz-Steuer in Euro pro g CO<sub>2</sub></p>
+<h4 id="4110-maut">4.1.10 Maut</h4>
+<p>Für Lkw werden fahrleistungsabhängige Mautkosten berücksichtigt. Die Maut berücksichtigt aktuell die folgenden Kostenkomponenten, mit den entsprechend gültigen Mautsätzen:</p>
+<ul>
+  <li>Infrastruktur</li>
+  <li>Luftschadstoffe</li>
+  <li>Lärm</li>
+  <li>CO<sub>2</sub></li>
+</ul>
+
+<p>Elektrische Lkw sind derzeit von der Maut befreit. Um die Deckung der Wegekosten gemäß der Wegekostenrichtlinie dennoch sicherzustellen, wird die Infrastrukturkomponente regelmäßig angepasst. Es ist möglich die Maut auch auf Pkw auszuweiten. Zudem können in TEMPS weitere Kosten nach der UBA-Methodenkonvention internalisiert werden, wie Unfallkosten, Abnutzung sowie Natur und Landschaft.</p>
+<h4 id="4111-dienstwagensteuer">4.1.11 Dienstwagensteuer</h4>
+<p>Die Bereitstellung eines Dienstwagens zur privaten Nutzung stellt steuerrechtlich einen geldwerten Vorteil dar. Dieser kann über die genaue Abrechnung aller privaten Fahrten mit der Fahrtenbuchmethode erfolgen oder aber, in Deutschland sehr verbreitet, über einen Pauschalierungsansatz.  Hierzu wird der geldwerte Vorteil pauschal über den Bruttolistenpreis des Dienstwagens und die einfache Distanz zur Arbeitsstätte des Arbeitnehmenden abgeschätzt.  </p>
+<p>In TEMPS wird die Besteuerung des geldwerten Vorteils der Dienstwagennutzung im Rahmen der TCO-Rechnung berücksichtigt und hat somit Einfluss auf die Antriebswahl. Es wird ein durchschnittlicher Arbeitsweg von 18 Kilometern einfacher Strecke, der anhand der MiD 2017 berechnet wurde, angesetzt. 
+Ferner wird ein Grenzsteuersatz von 40% für die Kalkulation der zusätzlichen finanziellen Belastung aus der Besteuerung des geldwerten Vorteils angenommen sowie berücksichtigt, dass der/die Arbeitgebende vorsteuerabzugsberechtigt ist, daher die Mehrwertsteuer beim Kauf entfällt und daher keinen Einfluss auf die TCO hat. Antriebsspezifische Sonderregelungen werden ebenfalls berücksichtigt.</p>
+<h3 id="42-logit-modell-fur-pkw">4.2 Logit-Modell für Pkw</h3>
+<p>Nachdem mit der TCO-Rechnung für jedes Pkw-Nutzungsprofil und jeden Antrieb die jeweils kostengünstigste Effizienz ermittelt wird, wird die Verteilung der Antriebe über ein Logit-Modell bestimmt. Das Logit-Modell ermöglicht es, antriebspezifische Attraktivitätsmerkmale zu berücksichtigen, die über die rein ökonomische Betrachtung hinausgehen.</p>
+<p>Die Realität zeigt, dass Menschen sich bei der Kaufentscheidung nicht grundsätzlich für das günstigste Fahrzeug entscheiden, sondern stattdessen andere Faktoren wie Komfort, Gewohnheit, Popularität oder Status bei der Kaufentscheidung von Bedeutung sind. Das Logit-Modell bildet diese antriebsspezifischen Charakteristika ab.</p>
+<p>Die Wahrscheinlichkeit für den Kauf eines Pkw mit dem Antrieb i kann mit dem Logit-Modell mittels der Gleichung</p>
+<p>$$
+P(X_{i}) = \frac{e^{val(x_{i})}}{\sum\limits_{j=1}^{i}{e^{val(x_{j})}}}
+$$</p>
+<p>beschrieben werden. Dabei bezeichnet \(X_{i}\) einen Pkw mit Antrieb \(i\). \(val(X_{i})\) ist eine Wertfunktion, die der TCO des Fahrzeugs \(X_{i}\) entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u.a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil der/des Kaufenden ab. 
+Die Logit-Parameter des Modells werden an den Neuzulassungszahlen des letzten historischen Jahres kalibriert. Es wird davon ausgegangen, dass die Attraktivität von alternativen Antrieben sich bis 2035 sukzessive dem Niveau von Benzinern annähert. Dies liegt an den verschärften CO<sub>2</sub>-Flottenzielwerten, die bis zum Jahr 2035 auf null sinken.
+Eine Kalibrierung anhand der EU-Monitoringdaten stellt zudem sicher, dass die Auswahl der Fahrzeugeffizienzen mit den Ist-Daten übereinstimmt und auch in der Prognose zuverlässig ist. </p>
+<h3 id="43-neuzulassungsstruktur-fur-nutzfahrzeuge">4.3 Neuzulassungsstruktur für Nutzfahrzeuge</h3>
+<p>Die Kaufentscheidung nach Antrieben bei den Nutzfahrzeugen erfolgt – anders als bei den Pkw – allein anhand ökonomischer Kriterien. Dies beruht auf der Annahme, dass bei Logistikunternehmen insbesondere die Wirtschaftlichkeit der Fahrzeuge im Fokus steht. 
+Die Antriebswahl erfolgt über einen direkten Vergleich der TCO aller Antriebsoptionen und Antriebseffizienzen. Wenn die Gesamtnutzungskosten für verschiedene Kaufoptionen sehr ähnlich sind, erfolgt die Auswahl des Antriebs mithilfe einer stochastischen Normalverteilungsfunktion. Damit soll sichergestellt werden, dass ein geringfügiger wirtschaftlicher Vorteil eines Antriebs keine übermäßige Auswirkung auf die Verteilung der Neuzulassungen hat.</p>
+<p>$$
+P_{i}(y_{i}) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(y_{i} - \mu)^{2}}{2\sigma^{2}}}
+$$</p>
+<p>Die Formel ermittelt jeweils die Auswahlwahrscheinlichkeit \(P\) für jede Antriebsoption \(i\) in Abhängigkeit der jeweiligen TCO \(y\). Der Mittelwert \(\mu\) der Verteilungskurve entspricht der TCO der insgesamt günstigsten Antriebsoption.</p>
+<h3 id="44-energieinfrastruktur">4.4 Energieinfrastruktur</h3>
+<p>Bei batterieelektrischen Antrieben spielt das Fahrverhalten eine entscheidende Rolle bei der Antriebswahl. Nutzungsprofile, die viele weite Strecken zurücklegen, werden sich - soweit noch keine hinreichende Ladeinfrastruktur besteht - in ihrem Kaufverhalten gegen einen batterieelektrischen Antrieb entscheiden. </p>
+<p>In TEMPS wird die Einsatzrestriktion batterieelektrischer Antriebe von Pkw in Relation zur Anzahl der Fahrten parametrisiert, welche die Batteriereichweite überschreiten. Es wird angenommen, dass eine Kaufentscheidung für ein batterieelektrisches Fahrzeug auch dann getroffen wird, wenn eine bestimmte Anzahl an Fahrten mit dem Fahrzeug aufgrund der limitierten Ladeinfrastruktur derzeit noch nicht zurückgelegt werden kann. Die absolute Anzahl dieser Fahrten wird für 30 verschiedene Gruppen aus den Wegedatensätzen der MiD <a href="#Nobis_2018">(Nobis und Kuhnimhof 2018)</a> abgeleitet. Dies geschieht differenziert nach Haltergruppe, Größenklasse und Jahresfahrleistung. Für jedes Nutzungsprofil wird die Anzahl der Fahrten anschließend über eine Poisson-Verteilung über den berechneten Mittelwert der jeweiligen Gruppe ermittelt. Die resultierende Limitierung der batterieelektrischen Fahrzeuge reduziert sich aufgrund des Ausbaus der öffentlichen Ladeinfrastruktur kontinuierlich, bis im Jahr 2035 keine Restriktion mehr besteht.</p>
+<p>Batterieelektrische Lkw stehen in TEMPS zunächst nur als Kaufoption für Nutzungsprofile zur Verfügung, wenn ihre durchschnittliche Tagesfahrleistung (abgeleitet aus der KiD <a href="#BMVI_2010">(Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) 2010)</a> vollständig über ihre Batteriereichweite abgedeckt ist. Im Zeitverlauf wird jedoch ein Ausbau der Infrastruktur angenommen, sodass die Reichweite durch Ladestopps erhöht werden kann. Insgesamt ergeben sich drei Ausbaustufen. In der ersten Ausbaustufe können Lkw nur einmal täglich im Depot geladen werden. In der zweiten Ausbaustufe kann nach jeder Tour, beispielsweise am Logistikzentrum oder bei Kund*innen, nachgeladen werden. In der dritten Stufe kann jederzeit während der Fahrt an öffentlichen Megawatt-Ladepunkten entlang der Autobahn zwischengeladen werden und die Restriktion durch die Batteriereichweite entfällt. Eine detaillierte Beschreibung der Methodik zur Ladeinfrastruktur ist der Studie StratES <a href="#Göckeler_2023">(Göckeler et al. 2023)</a> zu entnehmen. </p>
+<p>Für Brennstoffzellen-Lkw werden modellseitig keine Restriktionen des Fahrzeugeinsatzes berücksichtigt. Es wird davon ausgegangen, dass technische Entwicklungen dazu führen, dass im Jahr 2030 bis zu 1000 km Reichweite erreicht werden. </p>
+<h3 id="45-bestandsmodellierung">4.5 Bestandsmodellierung</h3>
+<p>Die Motorisierungsrate gibt das Verhältnis von Pkw zu Einwohner*innen an und bildet die Grundlage für die Bestandsmodellierung der Pkw. Im Modell wird bis 2030 die historische Entwicklung der Motorisierungsrate fortgeschrieben und angenommen, dass sie ab diesem Zeitpunkt konstant bleibt. Der nationale Pkw-Bestand fließt als Inputgröße in das Modell und wird anhand von Bevölkerungsprognosen jahresscharf fortgeschrieben.</p>
+<p>Die Lebensdauern der Pkw im deutschen Bestand wird über Überlebenskurven abgebildet, die aus dem Modell TREMOD von IFEU übernommen werden. Diese Überlebenskurven sind abhängig von Größenklasse und Antrieb. </p>
+<p>Die Bestandsmodellierung von Pkw erfolgt in vier Schritten: Zunächst wird für jedes Jahr berechnet, welche Fahrzeuge den Überlebenskurven nach aus dem Bestand ausscheiden. Dann wird der Anteil an Fahrzeugen bestimmt, die nach einer Haltedauer von 3 Jahren von kommerziellen Haltenden in den privaten Bestand übergehen. Anschließend wird die Differenz aus der Flotte und dem Zielwert aus dem Input berechnet. Diese Differenz wird durch neuzugelassene Fahrzeuge ersetzt, wobei aus der Empirie abgeleitete Anteile von kommerziellen und privaten Haltenden berücksichtigt werden.</p>
+<p>Die Bestandsmodellierung von Lkw erfolgt analog zur Bestandsmodellierung der Pkw. Da bei den Lkw ein relevanter Teil der Fahrleistung von ausländischen Lkw erbracht wird, stellt dies eine Vereinfachung dar. Die Größe des Lkw-Bestandes ist Inputgröße und abhängig von der Güterverkehrsnachfrage.  </p>
+<hr />
+<p><a id="4.6"></a></p>
+<h3 id="46-verkehrsnachfrage">4.6 Verkehrsnachfrage</h3>
+<p>Die Verkehrsnachfrage ist Inputgröße für die Markthochlaufmodellierung. Sie setzt sich zusammen aus historischen Daten und darauf aufsetzenden spezifischen Steigerungsraten. Die historischen Daten beruhen sowohl bei der Personen- als auch der Güterverkehrsnachfrage auf Daten aus Verkehr in Zahlen <a href="#BMVI_2019">(BMVI 2019)</a> Destatis sowie Ergebnissen des Verkehrsnachfragemodells TREMOD des IFEU. Für zukünftige Entwicklungen wird (Stand 2024) auf die Steigerungsraten aus dem Referenzszenario der Mobilitäts- und Kraftstoffstrategie (MKS) REF-2020 <a href="#Schade_2023">(Schade et al. 2023)</a> zurückgegriffen. Dabei berücksichtigt die Personenverkehrsnachfrage zusätzlich die Bevölkerungsentwicklung. Die Trendfortschreibung des Gütertransportaufkommens orientiert sich stark an der Entwicklung des Bruttoinlandsprodukts (BIP) und den damit zusammenhängenden Handelsströmen und Transporten.</p>
+<p>Die internationalen Verkehre (Schiff- und Luftverkehr) sowie der nationale Luftverkehr bilden jedoch eine Ausnahme. Die historischen Jahre beim nationalen und internationalen Luftverkehr werden anhand von DESTATIS-Daten nachgeführt und für die Prognose zukünftiger Entwicklungen Wachstumsprognosen der ICAO <a href="#ICAO_2016">(ICAO 2016)</a> angewendet.</p>
+<h4 id="461-verkehrsverlagerung-im-personenverkehr">4.6.1 Verkehrsverlagerung im Personenverkehr</h4>
+<p>Vermeidung und Verlagerung zu anderen Verkehrsträgern werden im Modell TEMPS durch direkte Preiselastizitäten abgebildet. Die direkte Elastizität beschreibt, wie sich Preisänderungen auf die Verkehrsnachfrage eines bestimmten Verkehrsmittels auswirken. Wenn sich die Verkehrsleistung eines Verkehrsmittels reduziert, kann dies sowohl durch Verkehrsvermeidung als auch durch eine Verlagerung auf andere Verkehrsträger verursacht sein.</p>
+<p>Die angewandten Preiselastizitäten für den Personenverkehr sind in <a href="#Hautzinger_2004">(Hautzinger et al. 2004)</a> empirisch hergeleitet. Für den motorisierten Individualverkehr ergibt sich eine Preiselastizität von -0,3 auf Kraftstoffpreisänderungen sowie eine Kreuzpreiselastizität für den öffentlichen Verkehr von 0,13. Auch die Studie <a href="#Reaños_2021">(Reaños und Sommerfeld 2018)</a> ermittelt für den Individualverkehr eine Elastizität von durchschnittlich -0,3. Langfristige Preisreaktionen wie die Anpassung der Antriebswahl werden in TEMPS über die TCO-Rechnung abgedeckt. 
+Elastizitäten können in beide Richtungen wirken: Eine zunehmende Elektrifizierung des MIV und dem damit einhergehenden Wirkungsverlust von CO<sub>2</sub>-abhängigen Preisinstrumenten können langfristig zu einer Zunahme der Verkehrsleistung im MIV führen.
+Beim Personenverkehr werden in TEMPS zusätzlich Kapazitätsengpässe auf der Schiene auf Basis von <a href="#NPM_2021">(NPM 2021)</a> berücksichtigt. Wenn die abgeleitete maximale Kapazität erreicht ist, wird zusätzliche der sonst auf die Schiene verlagerten Verkehrsleistung vermieden. Zudem wird auf andere Verkehrsträger wie Fernbusse, Linienbusse und Reisebusse verlagert. Dies erfolgt aufgrund der Annahme, dass Busbetreiber flexibler auf eine erhöhte Nachfrage reagieren können. </p>
+<h4 id="462-verkehrsverlagerungen-im-guterverkehr">4.6.2 Verkehrsverlagerungen im Güterverkehr</h4>
+<p>Im Güterverkehr werden Verlagerungen vom Straßenverkehr auf die Schiene und auf die Binnenschifffahrt betrachtet. Dabei wird angenommen, dass die Änderung der Verkehrsleistung äquivalent zur Änderung der Nutzerkosten erfolgt. Bei den Nutzerkosten werden neben den Kraftstoffkosten auch anfallende Mautgebühren mit einbezogen. In <a href="#Jong_2010">(Jong et al. 2010)</a> wird ein konsistentes Set an Elastizitäten für den Güterverkehr hergeleitet. Daraus ergibt sich eine durchschnittliche Elastizität von -0,6 bezogen auf die Transportkosten im Straßengüterverkehr. Die Kreuzpreiselastizität für andere Verkehrsträgeroptionen wird auf 0,3 abgeschätzt. Anders als beim Personenverkehr findet im Güterverkehr eine Verlagerung zu 100% statt, das heißt es gibt keine Verkehrsvermeidung durch Kosteneffekte. Die preisinduzierte Verkehrsverlagerung erfolgt auf die Bahn und die Binnenschifffahrt. Zusätzlich wird bei beiden Verkehrsträgern ein Umwegfaktor angenommen. Durch die zunehmende Elektrifizierung im Straßengüterverkehr kommt es perspektivisch zur Reduktion der Transportkosten. Dies kann eine Zunahme der Fahrleistung im Straßengüterverkehr durch Verlagerung mit sich ziehen (Rebound), sofern nicht andere Kosten ansteigen (z.B. Maut). </p>
+<hr />
+<h3 id="47-endenergieverbrauch-und-treibhausgasemissionen">4.7 Endenergieverbrauch und Treibhausgasemissionen</h3>
+<p>Die Zusammensetzung der Flotte (Lkw und Pkw) nach Fahrzeugtyp wird über die Bestandsmodellierung bestimmt. Dabei wird zunächst die Jahresfahrleistung aus den Nutzungsprofilen übernommen. Hier haben die Nutzungskosten wie beispielsweise Kraftstoffpreise oder Mautgebühren einen direkten Einfluss auf die Verteilung der Fahrleistung nach Antrieben und Effizienzen. Im Anschluss an die Bestandsmodellierung wird die gesamte Verkehrsnachfrage kalibriert, wobei die Verteilung nach Größenklasse, Region, Halter, Antrieb und Effizienz erhalten bleibt. Anschließend werden Verlagerungseffekte zu anderen Verkehrsträgern (siehe <a href="#4.6">Kapitel 4.6</a>) berücksichtigt.</p>
+<p>Die Berechnung des Endenergieverbrauchs erfolgt entlang des spezifischen Verbrauchs der Fahrzeuge der Bestandsflotte. Ladeverluste von Batteriefahrzeugen werden berücksichtigt. Für die Berechnung der Emissionen werden Emissionsfaktoren auf Basis des Energieinventars genutzt. Neben CO<sub>2</sub>-Emissionen werden Lachgas- und Methanemissionen berechnet. Zudem werden für den Straßenverkehr auch Luftschadstoffemissionen nach HBEFA ermittelt.</p>
+<hr />
+<h2 id="5-literaturverzeichnis">5 Literaturverzeichnis</h2>
+<p><a id="Agora_2018"></a>
+Agora Verkehrswende (Hg.) (2018): Umparken – den öffentlichen Raum gerechter verteilen. Zahlen und Fakten zum Parkraummanagement. 2. Aufl. Unter Mitarbeit von Anne Klein-Hitpaß, Wolfgang Aichinger, Uta Bauer, Martina Hertel, Rosa Rausch, Robert Sedlak und Julia Kirsch-Bauer. tippingpoints GmbH; Deutsches Institut für Urbanistik (Difu). Berlin.</p>
+<p><a id="Bäumer_2017"></a>
+Bäumer, Marcus; Hautzinger, Heinz; Pfeiffer, Manfred; Stock, Wilfried; Lenz, Barbara; Kuhnimhof, Tobias Georg; Köhler, Katja (2017): Fahrleistungserhebung 2014 - Inlandsfahrleistung und Unfallrisiko. Bremen (Berichte der Bundesanstalt für Straßenwesen Verkehrstechnik). Online verfügbar unter https://bast.opus.hbz-nrw.de/opus45-bast/frontdoor/deliver/index/docId/1775/file/BASt_V_291_barierefreies_Internet_PDF.pdf, zuletzt geprüft am 08.07.2021.</p>
+<p><a id="BMVI_2019"></a>
+BMVI (2019): Verkehr in Zahlen 2019/2020. 48. Jahrgang. Unter Mitarbeit von Deutsches Institut für Wirtschaftsforschung Berlin (DIW Berlin) und Kraftfahrt-Bundesamt (KBA). Hg. v. Bundesministerium für Verkehr und digitale Infrastruktur (BMVI).</p>
+<p><a id="BAST_2015"></a>
+Bundesanstalt für Straßenwesen (BASt) (Hg.) (2015): Ergebnisse Fahrleistungserhebung 2014. BASt. Online verfügbar unter http://www.bast.de/DE/Verkehrssicherheit/Fachthemen/u2-fahrleistung-2014/u2-Fahrleistung-2014-ergebnisse.html?nn=605482, zuletzt geprüft am 05.07.2017.</p>
+<p><a id="BMVI_2010"></a>
+Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) (Hg.) (2010): Kraftfahrzeugverkehr in Deutschland 2010 (KiD 2010). Ergebnisse der bundesweiten Verkehrsbefragung. BMVI. Online verfügbar unter http://www.bmvi.de/SharedDocs/DE/Artikel/G/kraftfahrzeugverkehr-in-deutschland-2010-kid-2010.html, zuletzt geprüft am 28.02.2018.</p>
+<p><a id="Dexheimer_2003"></a>
+Dexheimer, Verena (2003): Hedonic Methods of Price Measurement for Used Cars. German Federal Statistical Office (Destatis).</p>
+<p><a id="Ecke_2021"></a>
+Ecke, Lisa; Chlond, Bastian; Magdolen, Miriam; Vallée, Jan; Vortisch, Peter (2021): Deutsches Mobilitätspanel (MOP) – Wissenschaftliche Begleitung und Auswertungen Bericht 2020/2021: Alltagsmobilität und Fahrleistung. Hg. v. Karlsruher Institut für Technologie (KIT). Karlsruhe. Online verfügbar unter https://mobilitaetspanel.ifv.kit.edu/downloads/Bericht_MOP_20_21.pdf.</p>
+<p><a id="Göckeler_2022"></a>
+Göckeler, K.; Hacker, F.; Ziegler, L.; Heinzelmann, J.; Lesemann, L.; Bernecker, T. (2022): Anforderungen der Logistikbranche an einen Umstieg auf klimaschonende Fahrzeugtechnologien - Ergebnisbericht einer standardisierten Befragung. Zweiter Teilbericht des Forschungs- und Dialogvorhabens „StratES: Strategie für die Elektrifizierung des Straßengüterverkehr“. Öko-Institut; Hochschule Heilbronn. Online verfügbar unter https://www.oeko.de/fileadmin/oekodoc/StratES-Teilbericht_2-Befragung_Logistikbranche.pdf, zuletzt geprüft am 06.07.2022.</p>
+<p><a id="Göckeler_2023"></a>
+Göckeler, Katharina; Steinbach, Inia; Görz, Wolf; Hacker, Florian; Blanck, Ruth; Mottschall, Moritz (2023): StratES – Szenarien für die Elektrifizierung des Straßengüterverkehrs. Studie auf Basis von Markthochlaufmodellierungen. Dritter Teilbericht des Forschungs- und Dialogvorhabens StratES. Hg. v. Öko-Institut. Öko-Institut. Online verfügbar unter https://www.oeko.de/fileadmin/oekodoc/StratES-Szenarien-Elektrifizierung-Strassengueterverkehr.pdf, zuletzt geprüft am 27.09.2023.</p>
+<p><a id="Hautzinger_2004"></a>
+Hautzinger, H.; Mayer, K.; Helms, M.; Kern, C.; Wiesenhütter, M.; Haag, G.; Binder, J. (2004): Analyse von Änderungen des Mobilitätsverhaltens - insbesondere der Pkw-Fahrleistung - als ktion auf geänderte Kraftstoffpreise. Schlussbericht zum FP 96.0756/2002 des BMVBW. Hg. v. Institut für angewandte Verkehrs- und Tourismusforschung (IVT). Online verfügbar unter https://www.forschungsinformationssystem.de/servlet/is/164566/, zuletzt geprüft am 14.08.2023.</p>
+<p><a id="ICAO_2016"></a>
+ICAO (2016): ICAO Long-Term Traffic Forecasts, Passenger and Cargo. International Civil Aviation Organization (ICAO). Montreal. Online verfügbar unter https://www.icao.int/safety/ngap/NGAP8%20Presentations/ICAO-Long-Term-Traffic-Forecasts-July-2016.pdf, zuletzt aktualisiert am 2016, zuletzt geprüft am 08.05.2020.</p>
+<p><a id="Jong_2010"></a>
+Jong, Gerard de; Schroten, Arno; van Essen, Huib; Otten, Matthijs; Bucci, Pietro (2010): Price sensitivity of European road freight transport – towards a better understanding of existing results. significance; CE Delft, zuletzt geprüft am 04.10.2016.</p>
+<p><a id="Mock_2010"></a>
+Mock, Peter (2010): Entwicklung eines Szenariomodells zur Simulation der zukünftigen Marktanteile und CO<sub>2</sub>-Emissionen von Kraftfahrzeugen (VECTOR21). Dissertation. Universität Stuttgart, zuletzt geprüft am 05.10.2016.</p>
+<p><a id="Nobis_2018"></a>
+Nobis, Claudia; Kuhnimhof, Tobias (2018): Mobilität in Deutschland – MiD. Ergebnisbericht. FE-Nr. 70.904/15. Hg. v. Bundesministerium für Verkehr und digitale Infrastruktur (BMVI). infas; DLR; IVT; infas 360. Bonn, Berlin. Online verfügbar unter http://www.mobilitaet-in-deutschland.de/pdf/MiD2017_Ergebnisbericht.pdf, zuletzt geprüft am 25.11.2021.</p>
+<p><a id="NPM_2021"></a>
+NPM (2021): Wege für mehr Klimaschutz im Verkehr. Arbeitsgruppe 1 Klimaschutz im Verkehr. Online verfügbar unter https://www.plattform-zukunft-mobilitaet.de/wp-content/uploads/2021/07/NPM_AG1_Wege-fuer-mehr-Klimaschutz.pdf, zuletzt geprüft am 20.05.2022.</p>
+<p><a id="Reaños_2021"></a></p>
+<p>Reaños, Miguel A. Tovar; Sommerfeld, Katrin (2018): Fuel for inequality. Distributional effects of environmental reforms on private transport. In: Resource and Energy Economics 51, S. 28–43. DOI: 10.1016/j.reseneeco.2017.10.007.</p>
+
+<p><a id="Schade_2018"></a>
+Schade, Wolfgang; Perez, E.; Berthold D.; Wagner, U.; Krail, M.; Waßmuth, V. (2018): Gestaltung des neuen Referenzszenarios zur Nutzung in der MKS 2017+. Arbeitspapier im Auftrag des Bundesministeriums für Verkehr und digitale Infrastruktur, Karlsruhe</p>
+<p>  </p>
+<p><a id="Schade_2023"></a>
+Schade W., Anstett P., Berthold D., Emmerich C., Emmerich J., Haug I., Khanna A., Krail M., Oehme R., Streif M., Walther C., Waßmuth V. (2023): Gestaltung des MKS-Referenzszenarios für die Periode 2022 bis 2050 (REF-2050). Arbeitspapier im Auftrag des Bundesministeriums für Digitales und Verkehr (BMDV), Karlsruhe.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="https://www.oeko.de/"  target="_blank" rel="noopener">Öko-Institut e.V.</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+    
+  </body>
+</html>
