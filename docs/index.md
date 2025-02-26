@@ -464,7 +464,7 @@ ICAO (2016): ICAO Long-Term Traffic Forecasts, Passenger and Cargo. Internationa
 Jong, Gerard de; Schroten, Arno; van Essen, Huib; Otten, Matthijs; Bucci, Pietro (2010): Price sensitivity of European road freight transport – towards a better understanding of existing results. significance; CE Delft, zuletzt geprüft am 04.10.2016.
 
 <a id="JRC_2024"></a>
-Joint Research Center (2024): model DIONE cost curves PRIMES/TREMOVE. https://dione.jrc.ec.europa.eu/build/en/input_template_for_DIONE_cost_curves, zuletzt geprüft 28.11.2024.
+Joint Research Center (2024): model DIONE cost curves PRIMES/TREMOVE; E3Modelling. https://dione.jrc.ec.europa.eu/build/en/input_template_for_DIONE_cost_curves, zuletzt geprüft 28.11.2024.
 
 <a id="Mock_2010"></a>
 Mock, Peter (2010): Entwicklung eines Szenariomodells zur Simulation der zukünftigen Marktanteile und CO<sub>2</sub>-Emissionen von Kraftfahrzeugen (VECTOR21). Dissertation. Universität Stuttgart, zuletzt geprüft am 05.10.2016.
