@@ -176,7 +176,7 @@ Die Literatur zeigt, dass private Fahrzeugkäufer meist nicht die langfristigen 
 Bei Lkw hingegen spielt die gesamte Haltedauer eine entscheidende Rolle für die Wirtschaftlichkeit eines Fahrzeugs. Daher wird diese als Grundlage der Kaufentscheidung herangezogen. Aufgrund ihrer hohen Fahrleistung liegen die Haltedauern bei Lkw deutlich niedriger als bei Pkw. Eine standardisierten Online-Befragung von Transportunternehmen im Frühjahr 2021 [(Göckeler et al. 2022)](#Göckeler_2022) ergab Haltedauern zwischen 3 und 9 Jahren. Zusätzlich wird bei allen gewerblichen Haltern die Abschreibung berücksichtigt, welche mindernd auf die Unternehmenssteuern wirkt. Dabei werden ein Unternehmenssteuersatz von 30 % und eine Abschreibungsdauer von 9 Jahren zu Grunde gelegt.
 
 #### 4.1.1 Anschaffungspreis 
-Der Anschaffungspreis ergibt sich aus den Kostenkurven der Fahrzeuge und hängt von der gewählten Effizienz des Antriebs ab. Die Kostenkurven basieren auf Primes/TREMOVE und berücksichtigen zusätzlich aktuelle Batteriepreisprognosen. Falls die Emissionsstandards nicht erfüllt werden, wird eine Beeinflussung der Fahrzeugpreise durch die Hersteller angenommen, um die Zielerfüllung und damit die Vermeidung von Strafzahlungen sicherzustellen. Dies geschieht über eine aufkommensneutrale Querfinanzierung zwischen emittierenden und nicht-emittierenden Fahrzeugen. Der Anschaffungspreis fällt zum Kaufzeitpunkt an und geht daher nicht diskontiert in die TCO ein.
+Der Anschaffungspreis ergibt sich aus den Kostenkurven der Fahrzeuge und hängt von der gewählten Effizienz des Antriebs ab. Die Kostenkurven basieren auf [(Primes/TREMOVE)](#JRC_2024) und berücksichtigen zusätzlich aktuelle Batteriepreisprognosen. Falls die Emissionsstandards nicht erfüllt werden, wird eine Beeinflussung der Fahrzeugpreise durch die Hersteller angenommen, um die Zielerfüllung und damit die Vermeidung von Strafzahlungen sicherzustellen. Dies geschieht über eine aufkommensneutrale Querfinanzierung zwischen emittierenden und nicht-emittierenden Fahrzeugen. Der Anschaffungspreis fällt zum Kaufzeitpunkt an und geht daher nicht diskontiert in die TCO ein.
 
 #### 4.1.2 Restwerte
 Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Gutschrift in die TCO ein. Basierend auf Daten zur Restwertentwicklung von Fahrzeugen mit Verbrennungsmotoren wurde eine Regressionskurve abgeleitet, die den Restwert eines Fahrzeugs unter Berücksichtigung des Kaufpreises, der Laufleistung und des Fahrzeugalters bestimmt. Für das Modell wurde eine Regressionskurve des Statistischen Bundesamtes verwendet [(Dexheimer 2003)](#Dexheimer_2003).
@@ -462,6 +462,9 @@ ICAO (2016): ICAO Long-Term Traffic Forecasts, Passenger and Cargo. Internationa
 
 <a id="Jong_2010"></a>
 Jong, Gerard de; Schroten, Arno; van Essen, Huib; Otten, Matthijs; Bucci, Pietro (2010): Price sensitivity of European road freight transport – towards a better understanding of existing results. significance; CE Delft, zuletzt geprüft am 04.10.2016.
+
+<a id="JRC_2024"></a>
+Joint Research Center (2024): model DIONE cost curves PRIMES/TREMOVE. https://dione.jrc.ec.europa.eu/build/en/input_template_for_DIONE_cost_curves, zuletzt geprüft 28.11.2024.
 
 <a id="Mock_2010"></a>
 Mock, Peter (2010): Entwicklung eines Szenariomodells zur Simulation der zukünftigen Marktanteile und CO<sub>2</sub>-Emissionen von Kraftfahrzeugen (VECTOR21). Dissertation. Universität Stuttgart, zuletzt geprüft am 05.10.2016.
